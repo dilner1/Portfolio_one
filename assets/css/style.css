@@ -11,25 +11,40 @@ body {
     background-color: #fffff7;
     color: #1c1c1c;
     text-align: center;
+    background-image: url('../images/drums.jpeg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    margin-top: 75px;
 }
 
-h1 {
-    display: inline;
-    font-style: italic;
-    color: 1c1c1c; 
-    font-size: xxx-large;
+header div a {
+    color: inherit;
+    text-decoration: none;
 }
 
-#logo {
+.title h1 {
     font-family: Cinzel, Georgia, 'Times New Roman', Times, serif;
+    position:relative;
+    display: inline;
+    
+    font-style: italic;
+    font-size: xxx-large;
+    color: #1c1c1c; 
+}
+
+#studio {
     font-weight: 700;
 }
 
-#logo_two { 
-    font-family: Cinzel, Georgia, 'Times New Roman', Times, serif;
+#six {
     font-weight: 400;
 }
 
-a {
-    color: inherit;
+.heading_border {
+    margin: 0 auto;
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    background-color: rgba(255, 198, 248, 0.35);
 }
+
