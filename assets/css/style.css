@@ -8,17 +8,28 @@
 
 body {
     font-family: Montserrat, Arial, Helvetica, sans-serif;
-    background-color: #1c1c1c;
-    color: #fffff7;
+    background-color: #fffff7;
+    color: #1c1c1c;
     text-align: center;
+}
+
+h1 {
+    display: inline;
+    font-style: italic;
+    color: 1c1c1c; 
+    font-size: xxx-large;
 }
 
 #logo {
     font-family: Cinzel, Georgia, 'Times New Roman', Times, serif;
-    weight: 700;
+    font-weight: 700;
 }
 
 #logo_two { 
     font-family: Cinzel, Georgia, 'Times New Roman', Times, serif;
-    weight: 400;
+    font-weight: 400;
+}
+
+a {
+    color: inherit;
 }
