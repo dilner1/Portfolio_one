@@ -99,11 +99,12 @@ header div a {
 } 
 
 .heading_one {
-    background: rgba(255, 198, 248, 0.45);
-    margin: 0 25px 0 25px;
+    background: rgba(233, 129, 172, 0.45);
+    margin: 0 5px 0 5px;
 }
 
 .heading_one h2{
+    font-family: Cinzel, Georgia, 'Times New Roman', Times, serif;
     margin-top: 5%;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -112,6 +113,7 @@ header div a {
 }
 
 .heading_one p {
-    font-family: Cinzel, Georgia, 'Times New Roman', Times, serif;
-    padding: 10px 10% 10px;
+    padding: 5px 10% 10px;
+    
 }
+
