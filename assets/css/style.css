@@ -98,8 +98,17 @@ header div a {
     padding-top: 10px;
 } 
 
+.heading_one {
+    background: rgba(255, 198, 248, 0.45);
+    margin: 0 25px 0 25px;
+}
+
 .heading_one h2{
     margin-top: 5%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: xx-large;
+    text-decoration: underline;
 }
 
 .heading_one p {
