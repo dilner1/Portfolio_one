@@ -58,12 +58,12 @@ header div a {
 }
 
 .nav {
-    margin-top: 300px;
+    position: sticky;
+    top: 0px;
+    margin-top: 30px;
     width: 100%;
-    position: fixed;
     float: left;
     background: cover;
-    z-index: 2;
 }
 
 .nav li{
@@ -81,23 +81,23 @@ header div a {
 }
 
 #about {
-    padding-bottom: 15px;
     float:left;
+    padding: 10px 0 10px 0;
 }
 
 #rooms {
-    padding-bottom: 15px;
     float: right;
+    padding: 10px 0 10px 0;
 }
 
 #equipment {
-    padding-bottom: 15px;
     float: left;
+    padding: 10px 0 10px 0;
 }
 
 #bookings {
-    padding-bottom: 15px;
     float: right;
+    padding: 10px 0 10px 0;
 } 
 
 .heading_one h2{
