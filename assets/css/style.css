@@ -146,3 +146,10 @@ header div a {
     margin-right: 40px;
     padding-bottom: 5px;
 }
+
+.studio_images {
+    display: block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center ;  
+}
