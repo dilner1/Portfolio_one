@@ -11,6 +11,7 @@ body {
     background-color: #fffff7;
     color: #1c1c1c;
     text-align: center;
+    line-height: 2rem;
 }
 
 header {
@@ -23,6 +24,9 @@ header {
     border: 5px solid #fffff7;
 }
 
+p {
+    padding: 5px 10% 10px;
+}
 
 header div a {
     color: inherit;
@@ -118,11 +122,6 @@ header div a {
     margin: 0 5px 0 5px;
 }
 
-.heading_one p {
-    padding: 5px 10% 10px;
-    line-height: 2rem;
-}
-
 #rooms {
     margin-top: 10px;
     margin-left: 5px;
@@ -134,11 +133,6 @@ header div a {
     text-align: left;
     margin-left: 40px;
     padding-bottom: 5px;
-}
-
-.heading_two p {
-    padding: 5px 10% 10px;
-    line-height: 2rem;
 }
 
 #rehearsal_heading {
