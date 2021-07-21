@@ -78,22 +78,22 @@ header div a {
     color: rgb(255, 198, 248);  
 }
 
-#about {
+#about_nav {
     float:left;
     padding: 35px 0 20px 0;
 }
 
-#rooms {
+#rooms_nav {
     float: right;
     padding: 35px 0 20px 0;
 }
 
-#equipment {
+#equipment_nav {
     float: left;
     padding-top: 10px;
 }
 
-#bookings {
+#bookings_nav {
     float: right;
     padding-top: 10px;
 } 
@@ -103,8 +103,10 @@ header div a {
     margin: 0 5px 0 5px;
 }
 
-.heading_one h2{
+.section_headings{
     font-family: Cinzel, Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-style: italic;
     margin-top: 5%;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -112,14 +114,35 @@ header div a {
     text-decoration: underline;
 }
 
-.heading_one p {
-    padding: 5px 10% 10px;   
+.heading_one {
+    margin: 0 5px 0 5px;
 }
 
-#rooms_section {
-        margin-top: 10px;
-        margin-left: 5px;
-        margin-right: 5px;
-        border: 3px solid orange;
+.heading_one p {
+    padding: 5px 10% 10px; 
+    line-height: 2rem;  
+}
 
+#rooms {
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-bottom: 10px;
+}
+
+#studio_heading {
+    text-align: left;
+    margin-left: 40px;
+    padding-bottom: 5px;
+}
+
+.heading_two p {
+    padding: 5px 10% 10px; 
+    line-height: 2rem;  
+}
+
+#rehearsal_heading {
+    text-align: right;
+    margin-right: 40px;
+    padding-bottom: 5px;
 }
