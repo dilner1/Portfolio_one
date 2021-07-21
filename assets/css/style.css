@@ -17,12 +17,12 @@ header {
     background-image: url('../images/drums.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position:center ;    
+    background-position: center;
     padding-top: 20%;
     padding-bottom: 25%;
     border: 5px solid #fffff7;
 }
-    
+
 
 header div a {
     color: inherit;
@@ -31,7 +31,7 @@ header div a {
 
 .title h1 {
     font-family: Cinzel, Georgia, 'Times New Roman', Times, serif;
-    position:relative;
+    position: relative;
     display: inline;
     line-height: 300px;
     font-style: italic;
@@ -54,7 +54,7 @@ header div a {
     width: 300px;
     border-radius: 50%;
     background-size: cover;
-    background-color: rgba(255, 198, 248, 0.45);   
+    background-color: rgba(255, 198, 248, 0.45);
 }
 
 .nav {
@@ -63,10 +63,10 @@ header div a {
     background: cover;
 }
 
-.nav li{
+.nav li {
     text-align: center;
     text-shadow: 2px 2px rgba(28, 28, 28, .50);
-    display:inline-block;
+    display: inline-block;
     padding-right: 15px;
     font-weight: bolder;
     font-size: x-large;
@@ -75,11 +75,11 @@ header div a {
 }
 
 .nav li:hover {
-    color: rgb(255, 198, 248);  
+    color: rgb(255, 198, 248);
 }
 
 #about_nav {
-    float:left;
+    float: left;
     padding: 35px 0 20px 0;
 }
 
@@ -96,14 +96,14 @@ header div a {
 #bookings_nav {
     float: right;
     padding-top: 10px;
-} 
+}
 
 .heading_one {
     background: rgba(233, 129, 172, 0.45);
     margin: 0 5px 0 5px;
 }
 
-.section_headings{
+.section_headings {
     font-family: Cinzel, Georgia, 'Times New Roman', Times, serif;
     font-weight: 400;
     font-style: italic;
@@ -119,8 +119,8 @@ header div a {
 }
 
 .heading_one p {
-    padding: 5px 10% 10px; 
-    line-height: 2rem;  
+    padding: 5px 10% 10px;
+    line-height: 2rem;
 }
 
 #rooms {
@@ -137,8 +137,8 @@ header div a {
 }
 
 .heading_two p {
-    padding: 5px 10% 10px; 
-    line-height: 2rem;  
+    padding: 5px 10% 10px;
+    line-height: 2rem;
 }
 
 #rehearsal_heading {
@@ -147,9 +147,9 @@ header div a {
     padding-bottom: 5px;
 }
 
-.studio_images {
-    display: block;
+.studio_images img {
     background-repeat: no-repeat;
-    background-size: cover;
-    background-position:center ;  
+    background-size:cover;
+    background-position:center;
+    width: 100%;
 }
