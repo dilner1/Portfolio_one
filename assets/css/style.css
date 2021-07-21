@@ -118,10 +118,6 @@ header div a {
     text-decoration: underline;
 }
 
-.heading_one {
-    margin: 0 5px 0 5px;
-}
-
 #rooms {
     margin-top: 10px;
     margin-left: 5px;
@@ -146,4 +142,9 @@ header div a {
     background-size:cover;
     background-position:center;
     width: 100%;
+}
+
+#equipment {
+    background: rgba(235, 185, 92, 0.45);
+    margin: -5px 5px 0 5px;
 }
