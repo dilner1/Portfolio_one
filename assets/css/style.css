@@ -61,28 +61,28 @@ header div a {
     background-color: rgba(255, 198, 248, 0.45);
 }
 
-.nav_scrolling li{
+/*.nav_scrolling li {
     display: inline;
-    position: fixed;
+    width: 100%;
 }
 
 #about_nav_scrolling {
-    
+    left: -40%;
 }
 
 
 #rooms_nav_scrolling {
-    left: 20%;
+    left: -40%;
+
 }
 
 #equipment_nav_scrolling {
-
+    left: -60%;
 }
 
 #bookings_nav_scrolling {
-
-}
-
+    left: -80%;
+} */
 
 .nav {
     margin-top: 5px;
@@ -223,3 +223,4 @@ input[type=text], input[type=email] {
 #additional_information ::placeholder {
     text-align:left;
 }
+
