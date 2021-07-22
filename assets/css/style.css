@@ -20,7 +20,7 @@ header {
     background-size: cover;
     background-position: center;
     padding-top: 20%;
-    padding-bottom: 25%;
+    padding-bottom: 10%;
     border: 5px solid #fffff7;
 }
 
@@ -62,7 +62,7 @@ header div a {
 }
 
 .nav {
-    margin-top: 30px;
+    margin-top: 5px;
     width: 100%;
     background: cover;
 }
@@ -84,22 +84,27 @@ header div a {
 
 #about_nav {
     float: left;
-    padding: 35px 0 20px 0;
+    padding: 15px 0 20px 0;
 }
 
 #rooms_nav {
     float: right;
-    padding: 35px 0 20px 0;
+    padding: 15px 0 20px 0;
 }
 
 #equipment_nav {
     float: left;
-    padding-top: 10px;
+    padding-bottom: 15px;
 }
 
 #bookings_nav {
     float: right;
-    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+.scrolling_nav {
+    display: inline;
+    font-size: small;
 }
 
 .heading_one {
@@ -180,8 +185,12 @@ input[type=text], input[type=email] {
 
 .inquiery {
     background-color: rgba(214, 168, 209, 0.3);
-    margin: 0 10%;
-    
+    margin: 0 10%; 
+    padding-bottom: 20px;  
+}
+
+.inquiery h3 {
+    padding: 20px;
 }
 
 .inquiery input {
@@ -190,7 +199,6 @@ input[type=text], input[type=email] {
 }
 
 #additional_information {
-    
     height:300px;
 }
 
