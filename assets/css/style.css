@@ -105,17 +105,18 @@ header div a {
 .heading_one {
     background: rgba(233, 129, 172, 0.45);
     margin: 0 5px 0 5px;
+    
 }
 
 .section_headings {
     font-family: Cinzel, Georgia, 'Times New Roman', Times, serif;
     font-weight: 400;
     font-style: italic;
-    margin-top: 5%;
     padding-top: 10px;
     padding-bottom: 10px;
     font-size: xx-large;
     text-decoration: underline;
+    margin-top: 5%;
 }
 
 #rooms {
@@ -137,6 +138,11 @@ header div a {
     padding-bottom: 5px;
 }
 
+.studio_images {
+    clear:both;
+    line-height: 1rem;
+}
+
 .studio_images img {
     background-repeat: no-repeat;
     background-size:cover;
@@ -146,5 +152,5 @@ header div a {
 
 #equipment {
     background: rgba(235, 185, 92, 0.45);
-    margin: -5px 5px 0 5px;
+    margin: 0 5px 0 5px;
 }
