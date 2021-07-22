@@ -154,3 +154,15 @@ header div a {
     background: rgba(235, 185, 92, 0.45);
     margin: 0 5px 0 5px;
 }
+
+form {
+    background-image: url('../images/studio_amp.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+form input {
+    text-align: center;
+    display: block;
+    margin-left: 50%;
+}
