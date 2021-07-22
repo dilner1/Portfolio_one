@@ -182,6 +182,7 @@ form {
     background-image: url('../images/studio_amp.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     font-size: x-large;
     font-weight: 600;
     color:#fffff7;
@@ -234,9 +235,14 @@ input[type=submit] {
     border-radius: 5%;
     background-color:lightgray;
     border: 3px inset gray;
+    margin-bottom: 5%;
 }
 
 input[type=submit]:hover {
     background-color:limegreen;
     border-color: mediumspringgreen;
+}
+
+.social_media li{
+    color: red;
 }
