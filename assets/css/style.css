@@ -61,6 +61,29 @@ header div a {
     background-color: rgba(255, 198, 248, 0.45);
 }
 
+.nav_scrolling li{
+    display: inline;
+    position: fixed;
+}
+
+#about_nav_scrolling {
+    
+}
+
+
+#rooms_nav_scrolling {
+    left: 20%;
+}
+
+#equipment_nav_scrolling {
+
+}
+
+#bookings_nav_scrolling {
+
+}
+
+
 .nav {
     margin-top: 5px;
     width: 100%;
@@ -100,11 +123,6 @@ header div a {
 #bookings_nav {
     float: right;
     padding-bottom: 15px;
-}
-
-.scrolling_nav {
-    display: inline;
-    font-size: small;
 }
 
 .heading_one {
