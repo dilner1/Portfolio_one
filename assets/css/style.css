@@ -162,7 +162,17 @@ form {
 }
 
 form input {
+}
+
+.inquiery {
+    background-color: rgba(255, 198, 248, 0.50);
+    margin: 0 10% 0 10%;
+}
+
+.inquiery input {
     text-align: center;
     display: block;
     margin-left: 50%;
+    font-size: 700;
+    font-weight: bolder;
 }
