@@ -170,11 +170,12 @@ form {
     padding-top: 5%;
 }
 
-.contact input {
+input[type=text], input[type=email] {
     display: block;
     text-align: center;
     margin: 30px;
     width: 80%;
+    height: 2rem;
 }
 
 .inquiery {
@@ -186,4 +187,13 @@ form {
 .inquiery input {
     display: block;
     margin-left: 50%; 
+}
+
+#additional_information {
+    
+    height:300px;
+}
+
+#additional_information ::placeholder {
+    text-align:left;
 }
