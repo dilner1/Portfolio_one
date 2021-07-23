@@ -208,6 +208,7 @@ input[type=text], input[type=email] {
     margin: 30px;
     width: 80%;
     height: 2rem;
+    max-width: 600px;
 }
 
 .inquiery {
@@ -236,7 +237,6 @@ input[type=text], input[type=email] {
 }
 
 input[type=submit] {
-    display: block;
     font-weight: 600;
     font-size: x-large;
     width: 75px;
@@ -256,6 +256,7 @@ footer {
 }
 
 .social_media li {
+
     display: inline;
     font-size: xx-large;
     padding-left: 5%;
@@ -264,7 +265,11 @@ footer {
 }
 
 .social_media i {
-    color: rgb(233, 129, 172);
+    color: #fffff7;
     margin-top: 20px;
     margin-bottom: 20px;
+}
+
+.social_media i:hover {
+    color:rgb(233, 129, 172);
 }
