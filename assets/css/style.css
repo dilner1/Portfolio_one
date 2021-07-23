@@ -178,6 +178,11 @@ header div a {
     margin: 0 5px 0 5px;
 }
 
+#important_info {
+    font-style: italic;
+    font-size: small;
+}
+
 form {
     background-image: url('../images/studio_amp.jpeg');
     background-repeat: no-repeat;
@@ -190,12 +195,15 @@ form {
     
 }
 
+.form_input_area {
+}
+
+
 .contact {
     padding-top: 5%;
 }
 
 input[type=text], input[type=email] {
-    display: block;
     text-align: center;
     margin: 30px;
     width: 80%;
@@ -228,13 +236,13 @@ input[type=text], input[type=email] {
 }
 
 input[type=submit] {
+    display: block;
     font-weight: 600;
     font-size: x-large;
     width: 75px;
     height: 50px;
-    border-radius: 5%;
     background-color:lightgray;
-    border: 3px inset gray;
+    border: 3px solid gray;
     margin-bottom: 5%;
 }
 
@@ -243,6 +251,20 @@ input[type=submit]:hover {
     border-color: mediumspringgreen;
 }
 
-.social_media li{
-    color: red;
+footer {
+    background-color: #1c1c1c;
+}
+
+.social_media li {
+    display: inline;
+    font-size: xx-large;
+    padding-left: 5%;
+    
+
+}
+
+.social_media i {
+    color: rgb(233, 129, 172);
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
