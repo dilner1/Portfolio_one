@@ -87,7 +87,7 @@ header div a {
 .nav {
     margin-top: 5px;
     width: 100%;
-    background: cover;
+    background-size: cover;
 }
 
 .nav li {
