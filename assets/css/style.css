@@ -186,7 +186,7 @@ form {
 
 input[type=text], input[type=email] {
     text-align: center;
-    margin: 30px;
+    margin: 2rem;
     width: 80%;
     height: 2rem;
     max-width: 600px;
@@ -196,6 +196,7 @@ input[type=text], input[type=email] {
     background-color: rgba(214, 168, 209, 0.55);
     margin: 0 10%; 
     padding-bottom: 20px;  
+    max-width: 600px;
 }
 
 .inquiery h3 {
@@ -212,10 +213,11 @@ input[type=text], input[type=email] {
 }
 
 #additional_information {
+    margin-top: 2rem;
     height:300px;
-    text-align: left;
-    
-    
+    width: 70%;
+    max-width: 600px;
+    margin: 0 auto;
 }
 
 #additional_information::placeholder{
@@ -230,7 +232,8 @@ input[type=submit] {
     height: 50px;
     background-color:#CDCDCD;
     border: 3px solid #808080;
-    margin-bottom: 5%;
+    display: block;
+    margin: 0 auto;
 }
 
 input[type=submit]:hover {
@@ -248,8 +251,6 @@ footer {
     display: inline;
     font-size: xx-large;
     padding-left: 5%;
-    
-
 }
 
 .social_media i {
@@ -263,13 +264,6 @@ footer {
 }
 
 /*Responsive Design*/
-
-/* For medium screen sizes from 400px wide and down */
-@media screen and (min-width: 400px) {
-    .nav li{
-       
-    }
-}
 
 /* For medium screen sizes from 900px wide and down */
 @media screen and (min-width: 900px) {
@@ -301,6 +295,11 @@ footer {
         column-count: 2;
         max-width: 49%;
         display: inline-block;
+    }
+
+    .inquiery {
+        display: block;
+        margin: 0 auto;
     }
 
 }    
