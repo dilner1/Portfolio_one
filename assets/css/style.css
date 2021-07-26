@@ -58,7 +58,7 @@ header div a {
     width: 300px;
     border-radius: 50%;
     background-size: cover;
-    background-color: rgba(255, 198, 248, 0.45);
+    background-color: rgba(255, 198, 248, 0.5);
 }
 
 /*.nav_scrolling li {
@@ -158,7 +158,13 @@ header div a {
 #rehearsal_heading {
     text-align: right;
     margin-right: 40px;
+    padding-top: 10px;
     padding-bottom: 5px;
+}
+
+.rehearsal {
+    background: rgba(233, 167, 129, 0.45);
+    margin: 2px 5px 5px 5px;
 }
 
 .studio_images {
@@ -174,7 +180,7 @@ header div a {
 }
 
 #equipment {
-    background: rgba(235, 185, 92, 0.45);
+    background: rgba(250, 220, 89, 0.45);
     margin: 0 5px 0 5px;
 }
 
@@ -195,10 +201,6 @@ form {
     
 }
 
-.form_input_area {
-}
-
-
 .contact {
     padding-top: 5%;
 }
@@ -212,7 +214,7 @@ input[type=text], input[type=email] {
 }
 
 .inquiery {
-    background-color: rgba(214, 168, 209, 0.3);
+    background-color: rgba(214, 168, 209, 0.55);
     margin: 0 10%; 
     padding-bottom: 20px;  
 }
@@ -224,6 +226,10 @@ input[type=text], input[type=email] {
 .inquiery input {
     display: block;
     margin-left: 50%; 
+}
+
+.inquiery label:hover {
+    color:limegreen;
 }
 
 #additional_information {

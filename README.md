@@ -1,104 +1,100 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Studio Six
 
-Welcome dilner1,
+Studio Six is a recording studio that allows potential clients to hire either a recording studio, one of two rehearsal rooms or book equipement through the rental service for live music. As it is a busnieness area centered around artists I wanted to give the website a bold look to really capture the eye of the potential client.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. The last update to this file was: **July 2, 2021**
+The site uses a one page format, this makes it especially easy to naviagte on mobile and doesn't hinder use on a desktop. This also gives the site a sleek and modern feel.
 
-## Gitpod Reminders
+# Features
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+## Opening Screen
 
-`python3 -m http.server`
+- opening section of the page starts with a large, bright and colorful picture and focuses eye on central logo
 
-A blue button should appear to click: _Make Public_,
+- this is an attempt to make the site memorable and unique.
 
-Another blue button should appear to click: _Open Browser_.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
 
-A blue button should appear to click: _Make Public_,
+## Navigation Bar
 
-Another blue button should appear to click: _Open Browser_.
+- Navigation is located under the logo in large bold text, in plain white as not to be too distracting but still clear for poor eyesite users. Uses a shadow to stand out from background.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+- Has hover function that changes the nav colour however I am not sure if the accessability on lighthouse score takes this into concideration. 
 
-To log into the Heroku toolbelt CLI:
+- As is a one page site have not included an 'active' element as not necessary.
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+## Who We Are
 
-------
+- gives short information on company, explains what the studio can do 
 
-## Release History
+- As opening section is very dramatic this section was kept simple and easy to read
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+- Uses wide line-spacing and solid background to achieve this
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+## Rooms
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+- Uses image gallary to seperate sections
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+- Shows the specific rooms that can be booked
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+# Equipment 
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+- Similar to Who We Are section, focus on ease of reading.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+- Contains a brief disclaimer for anyone wanting to use this service
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+- Encourages peopclientsle to book early and get in contact through bookings section below
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+# Bookings
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+- Form for users that covers all of the above areas
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+- requires name / email, what service they would like and a text box to give aditional context
 
-------
 
-## FAQ about the uptime script
+# Footer
 
-**Why have you added this script?**
+- Links to social media
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+- Bold white against dark grey / near black
 
-**How will this affect me?**
+- like navigation has hover colour 
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+# Testing
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+## validation
+- Have tested HTML validation with no errors
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+![html_validation](assets/images/HTML Validation.png)
 
-**So….?**
+- Have tested CSS with one error that is easily fixed
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+![css_validation](assets/images/CSS Validation.png)
 
-**Can I opt out?**
+- Tested Lighthouse on mobile
+![desktop_lighthouse](assets/images/lighthouse mobile result.png)
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+- Tested Lighthouse on desktop
+![desktop_lighthouse](assets/images/lighthouse desktop result.png)
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+# Solved Bugs
 
-**Anything more?**
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+## Linking Images
+Ran into a bug almost immediately, after the initial submit and deployment to github the site did not update, 
 
----
+This was because the css was not linked correctly - had gone out of the directory because I used file path ../assets/images/nameofpicture.jpeg - when i removed the .. it worked as the index file is located next to the assets file.
 
-Happy coding!
+Similarly later on images in the Rooms section would not load, the file path looked correct remembering my mistake from last time. I relalised this was because I had put / in front of assets. Removing this connected the links.
+
+Did not have the same issue linking the navigation or social media.
+
+## Responsive Elements
+
+Had an issue with the form sections text and email boxes as they would not line up in the centre of the page. this was not an issue with the inquiery section that contains the radio buttons
+
+
+
