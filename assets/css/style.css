@@ -33,6 +33,7 @@ header div a {
     text-decoration: none;
 }
 
+/* Heading Logo */
 .title h1 {
     font-family: Cinzel, Georgia, 'Times New Roman', Times, serif;
     position: relative;
@@ -61,6 +62,7 @@ header div a {
     background-color: rgba(255, 198, 248, 0.5);
 }
 
+/* Planned Navigation - not yet working*/
 /*.nav_scrolling li {
     display: inline;
     width: 100%;
@@ -84,6 +86,7 @@ header div a {
     left: -80%;
 } */
 
+/* Navigation */
 .nav {
     margin-top: 5px;
     width: 100%;
@@ -107,24 +110,25 @@ header div a {
 
 #about_nav {
     float: left;
-    padding: 15px 0 20px 0;
+    padding-bottom: 20px;
 }
 
 #rooms_nav {
     float: right;
-    padding: 15px 0 20px 0;
+    padding-bottom: 20px;
 }
 
 #equipment_nav {
     float: left;
-    padding-bottom: 15px;
+    
 }
 
 #bookings_nav {
     float: right;
-    padding-bottom: 15px;
+    
 }
 
+/* who we are section */
 .heading_one {
     background: rgba(233, 129, 172, 0.45);
     margin: 0 5px 0 5px;
@@ -139,9 +143,9 @@ header div a {
     padding-bottom: 10px;
     font-size: xx-large;
     text-decoration: underline;
-    margin-top: 5%;
 }
 
+/* Studio and Rehearsal Rooms Section */
 #rooms {
     margin-top: 10px;
     margin-left: 5px;
@@ -167,6 +171,7 @@ header div a {
     margin: 2px 5px 5px 5px;
 }
 
+/*Rooms Galery Images*/
 .studio_images {
     clear:both;
     line-height: 1rem;
@@ -181,7 +186,7 @@ header div a {
 
 #equipment {
     background: rgba(250, 220, 89, 0.45);
-    margin: 0 5px 0 5px;
+    margin: 2px 5px 5px 5px;
 }
 
 #important_info {
@@ -189,6 +194,7 @@ header div a {
     font-size: small;
 }
 
+/*Booking Form*/
 form {
     background-image: url('../images/studio_amp.jpeg');
     background-repeat: no-repeat;
@@ -257,6 +263,7 @@ input[type=submit]:hover {
     border-color: mediumspringgreen;
 }
 
+/*Social Media*/
 footer {
     background-color: #1c1c1c;
 }
@@ -278,4 +285,23 @@ footer {
 
 .social_media i:hover {
     color:rgb(233, 129, 172);
+}
+
+/*Responsive Design*/
+
+/* For medium screen sizes from 950px wide and down */
+@media screen and (min-width: 400px) {
+
+
+}
+
+
+/* For medium screen sizes from 950px wide and down */
+@media screen and (max-width: 950px) {
+
+}
+
+/* For large screen sizes from 950px wide and down */
+@media screen and (max-width: 1200px) {
+
 }
