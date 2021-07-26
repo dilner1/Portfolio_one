@@ -19,7 +19,7 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    padding-top: 10%;
+    padding-top: 20%;
     padding-bottom: 20%;
     border: 5px solid #fffff7;
 }
@@ -71,7 +71,7 @@ header div a {
     position: sticky;
     top: 0px;
     background-color:#1c1c1c;
-    margin: 0 5px 5px;
+    margin-bottom: .5rem;
 }
 
  .nav li a {
@@ -272,12 +272,15 @@ footer {
 
 /*Responsive Design*/
 
-/* For medium screen sizes from 900px wide and down */
-@media screen and (min-width: 900px) {
+/* For medium screen sizes from 800px wide and down */
+@media screen and (min-width: 800px) {
     
     header {
         border: 10px solid #fffff7;
-    }
+            padding-top: 12%;
+            padding-bottom: 18%;
+            border: 5px solid #fffff7;
+        }
 
     .studio_pictures_resize { 
         column-count: 2;
