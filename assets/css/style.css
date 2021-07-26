@@ -180,11 +180,15 @@ form {
     font-weight: 600;
     color:#fffff7;
     text-shadow: 2px 2px rgba(28, 28, 28, 1);
+    padding-bottom: 1rem;
     
 }
 
 .contact {
+    width: 80%;
     padding-top: 5%;
+    max-width: 600px;
+    margin: 0 auto;
 }
 
 input[type=text], input[type=email] {
@@ -217,10 +221,9 @@ input[type=text], input[type=email] {
 
 #additional_information {
     margin-top: 2rem;
-    height:300px;
+    height: 200px;
     width: 70%;
     max-width: 600px;
-    margin: 0 auto;
 }
 
 #additional_information::placeholder{
@@ -268,8 +271,8 @@ footer {
 
 /*Responsive Design*/
 
-/* For medium screen sizes from 800px wide and down */
-@media screen and (min-width: 800px) {
+/* For medium screen sizes from 750px wide and down */
+@media screen and (min-width: 750px) {
     
     header {
         border: 10px solid #fffff7;
@@ -297,8 +300,7 @@ footer {
 
     .rehearsal_pictures_resize_large {
         width: 49%;
-        display: inline-block;
-        
+        display: inline-block;   
     }
 
     .rehearsal_pictures_resize_large img {
@@ -308,10 +310,12 @@ footer {
     .inquiery {
         display: block;
         margin: 0 auto;
+        max-width: 600px;
     }
 }    
 
-/* For large screen sizes from 950px wide and down */
-@media screen and (max-width: 1200px) {
+/* For large screen sizes from 1200px wide and down */
+@media screen and (min-width: 1200px) {
+
 
 }
