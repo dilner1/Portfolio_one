@@ -98,6 +98,8 @@ header div a {
     text-shadow: 2px 2px rgba(28, 28, 28, .50);
     display: inline-block;
     padding-right: 15px;
+    padding-bottom: 10px;
+    margin-top:10%;
     font-weight: bolder;
     font-size: x-large;
     color: #fffff7;
@@ -110,22 +112,18 @@ header div a {
 
 #about_nav {
     float: left;
-    padding-bottom: 20px;
 }
 
 #rooms_nav {
     float: right;
-    padding-bottom: 20px;
 }
 
 #equipment_nav {
     float: left;
-    
 }
 
 #bookings_nav {
     float: right;
-    
 }
 
 /* who we are section */
@@ -289,17 +287,53 @@ footer {
 
 /*Responsive Design*/
 
-/* For medium screen sizes from 950px wide and down */
+/* For medium screen sizes from 400px wide and down */
 @media screen and (min-width: 400px) {
-
-
+    .nav li{
+       
+    }
 }
-
 
 /* For medium screen sizes from 950px wide and down */
-@media screen and (max-width: 950px) {
+@media screen and (min-width: 900px) {
+    .nav li{
+        
+    }
 
-}
+    .heading_one {
+        max-width: 75%;
+        display: inline-block;
+        float: right;
+    }
+
+    .who_we_are_image {
+        max-width: 15%;
+        background-image: url('../images/headphones.jpeg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        float:left;
+        margin: 0 5px 0 5px;
+        
+    }
+
+    .heading_two {
+        max-width: 75%;
+        float: left;
+    }
+
+    .studio_band { 
+        column-count: 2;
+        max-width: 49%;
+        margin:0 auto;
+    }
+
+    .rehearsal {
+        max-width: 75%;
+        display: inline-block;
+        float: right;
+    }
+
+}    
 
 /* For large screen sizes from 950px wide and down */
 @media screen and (max-width: 1200px) {
