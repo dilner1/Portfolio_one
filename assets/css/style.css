@@ -312,6 +312,15 @@ footer {
         margin: 0 auto;
         max-width: 600px;
     }
+
+    #quote {
+        background-image: url('../images/mixing_desk_3.jpeg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin: 0 auto;
+        height: 100%;
+        width: 100%;
+    }
 }    
 
 /* For large screen sizes from 1200px wide and down */
