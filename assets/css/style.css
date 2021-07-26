@@ -19,7 +19,7 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    padding-top: 20%;
+    padding-top: 5%;
     padding-bottom: 10%;
     border: 5px solid #fffff7;
 }
@@ -62,31 +62,6 @@ header div a {
     background-color: rgba(255, 198, 248, 0.5);
 }
 
-/* Planned Navigation - not yet working*/
-/*.nav_scrolling li {
-    display: inline;
-    width: 100%;
-}
-
-#about_nav_scrolling {
-    left: -40%;
-}
-
-
-#rooms_nav_scrolling {
-    left: -40%;
-
-}
-
-#equipment_nav_scrolling {
-    left: -60%;
-}
-
-#bookings_nav_scrolling {
-    left: -80%;
-} */
-
-/* Navigation */
 .nav {
     margin-top: 5px;
     width: 100%;
@@ -129,7 +104,7 @@ header div a {
 /* who we are section */
 .heading_one {
     background: rgba(233, 129, 172, 0.45);
-    margin: 0 5px 0 5px;
+    margin: 0 5px;
     
 }
 
@@ -233,12 +208,14 @@ input[type=text], input[type=email] {
 }
 
 .inquiery label:hover {
-    color:limegreen;
+    color:#2DBA49;
 }
 
 #additional_information {
     height:300px;
     text-align: left;
+    
+    
 }
 
 #additional_information::placeholder{
@@ -251,14 +228,14 @@ input[type=submit] {
     font-size: x-large;
     width: 75px;
     height: 50px;
-    background-color:lightgray;
-    border: 3px solid gray;
+    background-color:#CDCDCD;
+    border: 3px solid #808080;
     margin-bottom: 5%;
 }
 
 input[type=submit]:hover {
-    background-color:limegreen;
-    border-color: mediumspringgreen;
+    background-color:#2DBA49;
+    border-color: #1BFD94;
 }
 
 /*Social Media*/
@@ -301,24 +278,16 @@ footer {
         border: 10px solid #fffff7;
     }
 
-    .heading_one {
-        max-width: 75%;
-        display: inline-block;
-        float: right;
-        border: 10px solid #fffff7;
+    #studio_heading  {
+        text-align: center;
+        margin-left: 0;
     }
 
-    .heading_two {
-        max-width: 75%;
-        float: left;
-    }
-
-    #studio_heading {
-        padding-left: 10%;
-    }
-
+    
+    
     #rehearsal_heading {
-        padding-right: 10%;
+        text-align: center;
+        margin-right: 0;
     }
 
     .studio_pictures_resize { 
@@ -332,14 +301,6 @@ footer {
         column-count: 2;
         max-width: 49%;
         display: inline-block;
-    }
-
-    
-
-    .rehearsal {
-        max-width: 75%;
-        display: inline-block;
-        float: right;
     }
 
 }    
