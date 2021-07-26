@@ -19,8 +19,8 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    padding-top: 5%;
-    padding-bottom: 5%;
+    padding-top: 10%;
+    padding-bottom: 20%;
     border: 5px solid #fffff7;
 }
 
@@ -70,26 +70,28 @@ header div a {
 .nav_stick {
     position: sticky;
     top: 0px;
-    background-color:#fffff7;
+    background-color:#1c1c1c;
     margin: 0 5px 5px;
+}
+
+ .nav li a {
+    text-decoration: none;
+    color: inherit;
 }
 
 .nav li {
     text-align: center;
-    text-shadow: 2px 2px rgba(28, 28, 28, .50);
     display: inline-block;
     padding-right: 15px;
-    padding-bottom: 10px;
-    margin-top: 1rem;
-    font-weight: bolders;
-    font-size: x-large;
+    padding-bottom: .25rem;
+    font-weight: bolder;
     color: #fffff7;
-    text-shadow: 2px 2px rgba(28, 28, 28, 1);
+    font-size: 1.5rem;
     z-index: 10;
 }
 
 .nav li:hover {
-    color: rgb(255, 198, 248);
+    color:#ffc6f8;
 }
 
 #about_nav {
@@ -134,13 +136,11 @@ header div a {
 }
 
 #studio_heading {
-    text-align: left;
     margin-left: 40px;
     padding-bottom: 5px;
 }
 
 #rehearsal_heading {
-    text-align: right;
     margin-right: 40px;
     padding-top: 10px;
     padding-bottom: 5px;
@@ -165,7 +165,7 @@ header div a {
 }
 
 #equipment {
-    background: rgba(250, 220, 89, 0.45);
+    background: rgba(165, 74, 226, 0.45);
     margin: 2px 5px 5px 5px;
 }
 
@@ -200,7 +200,7 @@ input[type=text], input[type=email] {
 }
 
 .inquiery {
-    background-color: rgba(214, 168, 209, 0.55);
+    background-color: rgba(219, 183, 215, 0.671);
     margin: 0 10%; 
     padding-bottom: 20px;  
     max-width: 600px;
@@ -277,18 +277,6 @@ footer {
     
     header {
         border: 10px solid #fffff7;
-    }
-
-    #studio_heading  {
-        text-align: center;
-        margin-left: 0;
-    }
-
-    
-    
-    #rehearsal_heading {
-        text-align: center;
-        margin-right: 0;
     }
 
     .studio_pictures_resize { 
