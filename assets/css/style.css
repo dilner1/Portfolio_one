@@ -313,6 +313,7 @@ footer {
         max-width: 600px;
     }
 
+    /* delete later maybe? */
     #quote {
         background-image: url('../images/mixing_desk_3.jpeg');
         background-size: cover;
