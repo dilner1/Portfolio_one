@@ -294,8 +294,9 @@ footer {
     }
 }
 
-/* For medium screen sizes from 950px wide and down */
+/* For medium screen sizes from 900px wide and down */
 @media screen and (min-width: 900px) {
+    
     header {
         border: 10px solid #fffff7;
     }
@@ -321,8 +322,12 @@ footer {
         float: left;
     }
 
-    img {
-        border: 10px solid #fffff7;
+    #studio_heading {
+        padding-left: 10%;
+    }
+
+    #rehearsal_heading {
+        padding-right: 10%;
     }
 
     .studio_band { 
