@@ -170,7 +170,7 @@ body {
     font-size: small;
 }
 
-.quote {
+.hidden_image {
     display: none;
 }
 
@@ -324,16 +324,13 @@ footer {
         max-width: 600px;
     }
 
-    .quote {
-        display: inline;  
-        background-color:#808080;
-        background-size: contain;
-        background-repeat: no-repeat; 
-        width: 100%;
-        height: 100%;
+    .hidden_image {
+        display: block;
     }
 
-    .quote>p {
-        font-size: .8rem;
+    .hidden_image img{
+
     }
+
+    
 }
