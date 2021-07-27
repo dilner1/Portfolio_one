@@ -144,7 +144,7 @@ body {
 
 .rehearsal {
     background: rgba(233, 167, 129, 0.45);
-    margin: 0 .5rem .5rem;
+    margin: 0 .5rem ;
 }
 
 /*Rooms Galery Images*/
@@ -156,9 +156,13 @@ body {
     width: 100%;
 }
 
+#bassist {
+    margin-top: .5rem;
+}
+
 #equipment {
     background: rgba(165, 74, 226, 0.45);
-    margin: 2px 5px 5px 5px;
+    margin: -.8rem .5rem .5rem;
 }
 
 #important_info {
