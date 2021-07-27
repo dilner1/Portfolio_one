@@ -324,8 +324,16 @@ footer {
         max-width: 600px;
     }
 
-    /* delete later maybe? */
     .quote {
-        
+        display: inline;  
+        background-color:#808080;
+        background-size: contain;
+        background-repeat: no-repeat; 
+        width: 100%;
+        height: 100%;
+    }
+
+    .quote>p {
+        font-size: .8rem;
     }
 }
