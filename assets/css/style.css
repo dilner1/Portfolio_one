@@ -170,7 +170,7 @@ body {
     font-size: small;
 }
 
-.hidden_image {
+.hidden_quote {
     display: none;
 }
 
@@ -260,7 +260,7 @@ footer {
 .social_media li {
 
     display: inline;
-    font-size: xx-large;
+    font-size: 3rem;
     padding-left: 5%;
 }
 
@@ -324,13 +324,19 @@ footer {
         max-width: 600px;
     }
 
-    .hidden_image {
+    .hidden_quote {
         display: block;
+        background-color:rgba(233, 129, 172, 0.45);
     }
 
-    .hidden_image img{
-
+    .hidden_quote p {
+        font-size: .5rem;
     }
+}
 
-    
+/* For medium screen sizes from 900px wide and down */
+@media screen and (min-width: 900px) {
+    .hidden_quote p {
+        font-size: .75rem;
+}
 }
