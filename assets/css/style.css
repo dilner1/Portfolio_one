@@ -270,6 +270,13 @@ footer {
 
 /*Responsive Design*/
 
+/* For medium screen sizes from 600px wide and down */
+@media screen and (min-width: 600px) {
+    .nav li {
+        font-size: 1.5rem;
+    }
+}
+
 /* For medium screen sizes from 750px wide and down */
 @media screen and (min-width: 750px) {
 
@@ -278,10 +285,6 @@ footer {
         padding-top: 12%;
         padding-bottom: 18%;
         border: 5px solid #fffff7;
-    }
-
-    .nav li {
-        font-size: 1.5rem;
     }
 
     .studio_pictures_resize {
@@ -326,6 +329,3 @@ footer {
         width: 100%;
     }
 }
-
-/* For large screen sizes from 1200px wide and down */
-@media screen and (min-width: 1200px) {}    
