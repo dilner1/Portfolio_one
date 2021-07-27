@@ -170,6 +170,10 @@ body {
     font-size: small;
 }
 
+.quote {
+    display: none;
+}
+
 /*Booking Form*/
 form {
     background-image: url('../images/studio_amp.jpeg');
@@ -322,8 +326,6 @@ footer {
 
     /* delete later maybe? */
     .quote {
-        background-color: #808080;
-        background-size: cover;
-        background-repeat: no-repeat;   
+        
     }
 }
