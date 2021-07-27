@@ -165,7 +165,7 @@ body {
     margin: -.8rem .5rem .5rem;
 }
 
-#important_info {
+.important_info {
     font-style: italic;
     font-size: small;
 }
@@ -321,12 +321,9 @@ footer {
     }
 
     /* delete later maybe? */
-    #quote {
-        background-color: #1BFD94;
+    .quote {
+        background-color: #808080;
         background-size: cover;
-        background-repeat: no-repeat;
-        margin: 0 auto;
-        height: 100%;
-        width: 100%;
+        background-repeat: no-repeat;   
     }
 }
