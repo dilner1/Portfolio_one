@@ -322,7 +322,7 @@ footer {
 
     /* delete later maybe? */
     #quote {
-        background-image: url('../images/mixing_desk_3.jpeg');
+        background-color: #1BFD94;
         background-size: cover;
         background-repeat: no-repeat;
         margin: 0 auto;
