@@ -21,7 +21,7 @@ body {
     background-position: center;
     padding-top: 20%;
     padding-bottom: 20%;
-    border: 5px solid #fffff7;
+    border: .5rem solid #fffff7;
 }
 
 .paragraphs {
@@ -113,7 +113,7 @@ body {
 /* who we are section */
 .heading_one {
     background: rgba(233, 129, 172, 0.45);
-    margin: 0 5px;
+    margin: 0 .5rem;
 
 }
 
@@ -130,8 +130,6 @@ body {
 /* Studio and Rehearsal Rooms Section */
 #rooms {
     margin-top: 10px;
-    margin-left: 5px;
-    margin-right: 5px;
     padding-bottom: 10px;
 }
 
@@ -146,7 +144,7 @@ body {
 
 .rehearsal {
     background: rgba(233, 167, 129, 0.45);
-    margin: 2px 5px 5px 5px;
+    margin: 0 .5rem .5rem;
 }
 
 /*Rooms Galery Images*/
@@ -281,7 +279,6 @@ footer {
 @media screen and (min-width: 750px) {
 
     .main_header {
-        border: 10px solid #fffff7;
         padding-top: 12%;
         padding-bottom: 18%;
         border: 5px solid #fffff7;
