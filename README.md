@@ -4,6 +4,8 @@ Studio Six is a recording studio that allows potential clients to hire either a 
 
 The site uses a one page format, this makes it especially easy to naviagte on mobile and doesn't hinder use on a desktop. This also gives the site a sleek and modern feel.
 
+![alt](assets/images/responsive_design.png)
+
 # Features
 
 ## Opening Screen
@@ -16,9 +18,9 @@ The site uses a one page format, this makes it especially easy to naviagte on mo
 
 ## Navigation Bar
 
-- Navigation is located under the logo in large bold text, in plain white as not to be too distracting but still clear for poor eyesite users. Uses a shadow to stand out from background.
+- Navigation is located under the header and sticks to the top when scrolling down
 
-- Has hover function that changes the nav colour however I am not sure if the accessability on lighthouse score takes this into concideration. 
+- Has hover function that changes the nav colour 
 
 - As is a one page site have not included an 'active' element as not necessary.
 
@@ -39,7 +41,7 @@ The site uses a one page format, this makes it especially easy to naviagte on mo
 - Shows the specific rooms that can be booked
 
 
-# Equipment 
+## Equipment 
 
 - Similar to Who We Are section, focus on ease of reading.
 
@@ -48,14 +50,14 @@ The site uses a one page format, this makes it especially easy to naviagte on mo
 - Encourages peopclientsle to book early and get in contact through bookings section below
 
 
-# Bookings
+## Bookings form
 
 - Form for users that covers all of the above areas
 
 - requires name / email, what service they would like and a text box to give aditional context
 
 
-# Footer
+## Footer
 
 - Links to social media
 
@@ -66,13 +68,14 @@ The site uses a one page format, this makes it especially easy to naviagte on mo
 # Testing
 
 ## validation
-- Have tested HTML validation with no errors
 
-![html_validation](assets/images/HTML Validation.png)
+- No errors were returned when passing through the official Validator
 
-- Have tested CSS with one error that is easily fixed
+![html validation](assets/images/html_validation.png)
 
-![css_validation](assets/images/CSS Validation.png)
+- No errors were returned when passing through the official validator
+
+![css_validation](assets/images/css_validation.png)
 
 - Tested Lighthouse on mobile
 ![desktop_lighthouse](assets/images/lighthouse mobile result.png)
@@ -100,4 +103,14 @@ The issue stopped when I removed the display element, the natural flow of the pa
 
 
 
+# deployment
 
+
+
+# credits
+
+
+# content
+
+
+# media
