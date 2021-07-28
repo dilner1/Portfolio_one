@@ -14,6 +14,7 @@ The site uses a one page format, this makes it especially easy to naviagte on mo
 
 - this is an attempt to make the site memorable and unique.
 
+![main menu screen](assets/images/menu.png)
 
 
 ## Navigation Bar
@@ -41,7 +42,7 @@ The site uses a one page format, this makes it especially easy to naviagte on mo
 
 - Shows the specific rooms that can be booked
 
-![rehearsal rooms section](assets/images/rehearsal_rooms_section.png)
+![rehearsal rooms section](assets/images/rehearsal_section.png)
 
 ## Equipment 
 
@@ -59,7 +60,7 @@ The site uses a one page format, this makes it especially easy to naviagte on mo
 
 - requires name / email, what service they would like and a text box to give aditional context
 
-![bookings section](assets/images/bookings_section.png)
+![bookings section](assets/images/booking_section.png)
 
 ## Footer
 
@@ -68,6 +69,8 @@ The site uses a one page format, this makes it especially easy to naviagte on mo
 - Bold white against dark grey / almost black
 
 - like navigation has hover colour 
+
+![footer](assets/images/footer.png)
 
 # Testing
 
