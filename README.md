@@ -101,6 +101,16 @@ Had an issue with the form sections text and email boxes as they would not line 
 
 The issue stopped when I removed the display element, the natural flow of the page correted the mistake as it was already responsive. This has taught me it is very easy to over code something.
 
+# Footer and Form alignment
+
+This section is not in regards to a page breaking error however for design purposes it made the site look unpolished.
+
+I found that although on my mobile design the social media fonts seemed inline it was clear on the full sized screen they were not. When I looked at the elements using inspect the icons were pushed to one side so I atempted several methods to change this from padding and margin values, display types to vertical alignment.
+
+However after using stack overflow I discovered giving that giving the icons a width value and removing the padding actually corrected this.
+
+After spending so much time on this section I also realised the radio input dots in the inquiery section were also slightly out of line with their text. the reason was I set the margin-left to 50%, this again looked correct on mobile but clearly not on a larger screen. Changing this to instead margin: 0 atuo; fixed this issue.
+
 # Unfixed Bugs
 
 Whilst not a bug as such I have found that when I move to a section of the page it crops out the titles, this is because of the navigation bar that sticks to the top of the page. I would still keep the navigation bars design as it is very useful for navigating the page however to clean up the design I would look to change where the link take the user. 

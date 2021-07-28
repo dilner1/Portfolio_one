@@ -280,9 +280,8 @@ footer {
 @media screen and (min-width: 750px) {
 
     .main_header {
-        padding-top: 12%;
+        padding-top: 14%;
         padding-bottom: 18%;
-        border: 5px solid #fffff7;
     }
 
     .studio_pictures_resize {
@@ -331,5 +330,5 @@ footer {
 @media screen and (min-width: 900px) {
     .hidden_quote p {
         font-size: .75rem;
-}
+    }
 }
