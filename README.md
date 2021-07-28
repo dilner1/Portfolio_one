@@ -61,7 +61,7 @@ The site uses a one page format, this makes it especially easy to naviagte on mo
 
 - Links to social media
 
-- Bold white against dark grey / near black
+- Bold white against dark grey / almost black
 
 - like navigation has hover colour 
 
