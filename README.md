@@ -83,25 +83,23 @@ The site uses a one page format, this makes it especially easy to naviagte on mo
 - Tested Lighthouse on desktop
 ![desktop_lighthouse](assets/images/lighthouse desktop result.png)
 
-# Solved Bugs
-
 
 ## Linking Images
-Ran into a bug almost immediately, after the initial submit and deployment to github the site did not update, 
+I ran into a bug almost immediately, after the initial submit and deployment to github the site did not update, this was because the css was not linked correctly - I had gone out of the directory because I used the file path '../assets/images/nameofpicture.jpeg' - when i removed the '..' it worked as the index file is located next to the assets file.
 
-This was because the css was not linked correctly - had gone out of the directory because I used file path ../assets/images/nameofpicture.jpeg - when i removed the .. it worked as the index file is located next to the assets file.
-
-Similarly later on images in the Rooms section would not load, the file path looked correct remembering my mistake from last time. I relalised this was because I had put / in front of assets. Removing this connected the links.
-
-Did not have the same issue linking the navigation or social media.
+Similarly I encountered an issue with the images in the Rooms section would not load, the file path looked correct as I compared it to my mistake above. I relalised this was because I had put '/' in front of assets. Removing this connected the links.
 
 ## Responsive Elements
+
+The site was designed with a mobile first approach. 
 
 Had an issue with the form sections text and email boxes as they would not line up in the centre of the page. this was not an issue with the inquiery section that contains the radio buttons. The problem was more pronounced when used on tablet and desktop, so originally I used margin with percentages to fix this however it still persisted, tried padding and changing different display element types.
 
 The issue stopped when I removed the display element, the natural flow of the page correted the mistake as it was already responsive. This has taught me it is very easy to over code something.
 
+# Unfixed Bugs
 
+Whilst not a but as such I have found that when I move to a section of the page it crops out the titles, this is because of the navigation bar that sticks to the top of the page. I would still keep the navigation bars design as it is very useful for navigating the page however to clean up the design I would look to change where the link take the user. 
 
 # deployment
 
