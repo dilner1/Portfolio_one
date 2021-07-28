@@ -4,7 +4,7 @@ Studio Six is a recording studio that allows potential clients to hire either a 
 
 The site uses a one page format, this makes it especially easy to naviagte on mobile and doesn't hinder use on a desktop. This also gives the site a sleek and modern feel.
 
-![alt](assets/images/responsive_design.png)
+![responsive design picture](assets/images/responsive_design.png)
 
 # Features
 
@@ -33,6 +33,7 @@ The site uses a one page format, this makes it especially easy to naviagte on mo
 
 - Uses wide line-spacing and solid background to achieve this
 
+![About us section](assets/images/who_we_are_section.png)
 
 ## Rooms
 
@@ -40,6 +41,7 @@ The site uses a one page format, this makes it especially easy to naviagte on mo
 
 - Shows the specific rooms that can be booked
 
+![rehearsal rooms section](assets/images/rehearsal_rooms_section.png)
 
 ## Equipment 
 
@@ -49,13 +51,15 @@ The site uses a one page format, this makes it especially easy to naviagte on mo
 
 - Encourages peopclientsle to book early and get in contact through bookings section below
 
+![equipment section](assets/images/equipment_section.png)
 
-## Bookings form
+ ## Bookings form
 
 - Form for users that covers all of the above areas
 
 - requires name / email, what service they would like and a text box to give aditional context
 
+![bookings section](assets/images/bookings_section.png)
 
 ## Footer
 
@@ -99,7 +103,7 @@ The issue stopped when I removed the display element, the natural flow of the pa
 
 # Unfixed Bugs
 
-Whilst not a but as such I have found that when I move to a section of the page it crops out the titles, this is because of the navigation bar that sticks to the top of the page. I would still keep the navigation bars design as it is very useful for navigating the page however to clean up the design I would look to change where the link take the user. 
+Whilst not a bug as such I have found that when I move to a section of the page it crops out the titles, this is because of the navigation bar that sticks to the top of the page. I would still keep the navigation bars design as it is very useful for navigating the page however to clean up the design I would look to change where the link take the user. 
 
 # deployment
 
