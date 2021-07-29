@@ -21,7 +21,7 @@ body {
     background-position: center;
     padding-top: 25%;
     padding-bottom: 25%;
-    border: .5rem solid #fffff7;
+    margin: .5rem;
 }
 
 .paragraphs {
