@@ -48,9 +48,7 @@ The site uses a one page format, this makes it especially easy to naviagte on mo
 
 - Similar to Who We Are section, focus on ease of reading.
 
-- Contains a brief disclaimer for anyone wanting to use this service
-
-- Encourages peopclientsle to book early and get in contact through bookings section below
+- Contains a brief disclaimer for anyone wanting to use this service and encourages clients to get in contact through bookings section below
 
 ![equipment section](assets/images/equipment_section.png)
 
@@ -58,7 +56,9 @@ The site uses a one page format, this makes it especially easy to naviagte on mo
 
 - Form for users that covers all of the above areas
 
-- requires name / email, what service they would like and a text box to give aditional context
+- requires name / email, what service they would like and a text box to give aditional context.
+
+- Inquiery section changes color on hover and also and also requires one of these to be selected
 
 ![bookings section](assets/images/booking_section.png)
 
@@ -68,7 +68,9 @@ The site uses a one page format, this makes it especially easy to naviagte on mo
 
 - Bold white against dark grey / almost black
 
-- like navigation has hover colour 
+- like the navigation bar it also has a hover colour 
+
+- Directs user to the respective site on a new page
 
 ![footer](assets/images/footer.png)
 
@@ -91,7 +93,8 @@ The site uses a one page format, this makes it especially easy to naviagte on mo
 ![desktop_lighthouse](assets/images/lighthouse desktop result.png)
 
 
-## Linking Images
+## File Paths
+
 I ran into a bug almost immediately, after the initial submit and deployment to github the site did not update, this was because the css was not linked correctly - I had gone out of the directory because I used the file path '../assets/images/nameofpicture.jpeg' - when i removed the '..' it worked as the index file is located next to the assets file.
 
 Similarly I encountered an issue with the images in the Rooms section would not load, the file path looked correct as I compared it to my mistake above. I relalised this was because I had put '/' in front of assets. Removing this connected the links.
@@ -101,6 +104,14 @@ Similarly I encountered an issue with the images in the Rooms section would not 
 The site was designed with a mobile first approach. 
 
 Had an issue with the form sections text and email boxes as they would not line up in the centre of the page. this was not an issue with the inquiery section that contains the radio buttons. The problem was more pronounced when used on tablet and desktop, so originally I used margin with percentages to fix this however it still persisted, tried padding and changing different display element types.
+
+![mobile form centering](assets/images/form_mobile_centering_ok.png)
+
+- Mobile version looks fine
+
+![Desktop form centerng](assets/images/form_centering_issue.png)
+
+- Desktop version is clearly out of line
 
 The issue stopped when I removed the display element, the natural flow of the page correted the mistake as it was already responsive. This has taught me it is very easy to over code something.
 
