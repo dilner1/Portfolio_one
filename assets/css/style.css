@@ -178,10 +178,6 @@ body {
     font-size: .75rem;
 }
 
-.hidden_quote {
-    display: none;
-}
-
 /*Booking Form*/
 form {
     background-image: url('../images/studio_amp.jpeg');
