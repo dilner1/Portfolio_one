@@ -154,7 +154,7 @@ body {
     padding: 2.8rem 0;
 }
 
-/*Rooms Galery Images*/
+/*Rooms Gallery Images*/
 
 .studio_images img {
     background-repeat: no-repeat;
@@ -166,6 +166,8 @@ body {
 #bassist {
     margin-top: .5rem;
 }
+
+/* Equipment Section */
 
 #equipment {
     background: rgba(165, 74, 226, 0.45);
@@ -294,9 +296,6 @@ footer {
         padding-bottom: 25%;
     }
 
-    .responsive_images_box {
-    }
-
     .studio_pictures_resize {
         column-count: 2;
         max-width: 49%;
@@ -341,6 +340,22 @@ footer {
 
 /* For medium screen sizes from 1000px wide and down */
 @media screen and (min-width: 1000px) {
+
+    .heading_one {
+        padding: 2.8rem 0;
+    }
+
+    #rooms {
+        padding: 2.8rem 0 0;
+    }
+
+    #equipment {
+        padding: 2.8rem 0;
+    }
+
+    #bookings {
+        padding: 2.8rem 0 0;
+    }
 
     .hidden_quote {
         line-height: 1.75;
