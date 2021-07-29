@@ -168,7 +168,7 @@ body {
 
 .important_info {
     font-style: italic;
-    font-size: small;
+    font-size: .75rem;
 }
 
 .hidden_quote {
@@ -321,14 +321,18 @@ footer {
         background-color:rgba(233, 129, 172, 0.45);
     }
 
-    .hidden_quote p {
-        font-size: .5rem;
+    #quote {
+        font-size: 1rem;
     }
+
 }
 
 /* For medium screen sizes from 900px wide and down */
 @media screen and (min-width: 900px) {
-    .hidden_quote p {
-        font-size: .75rem;
+    .hidden_quote {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
     }
 }
