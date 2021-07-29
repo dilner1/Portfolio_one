@@ -87,10 +87,12 @@ The site uses a one page format, this makes it especially easy to naviagte on mo
 ![css_validation](assets/images/css_validation.png)
 
 - Tested Lighthouse on mobile
-![desktop_lighthouse](assets/images/lighthouse mobile result.png)
+![desktop_lighthouse]()
 
 - Tested Lighthouse on desktop
-![desktop_lighthouse](assets/images/lighthouse desktop result.png)
+![desktop_lighthouse]()
+
+When testing the lighthouse score I noticed that even after I reduced the image file sizes the Performance score was still around 70 - 81. the main image was being flagged although it is only 307 KB - because it is a details image with a wide variety of colours and high contrast I tested reducing the padding size on the Desktop version so less of the image showed. This immediately improved the Performance to 97. The performance for the mobile stayed the same. Although I prefer the look of a larger main image size it does hamper the performance score significantly.
 
 
 ## File Paths
@@ -98,6 +100,8 @@ The site uses a one page format, this makes it especially easy to naviagte on mo
 I ran into a bug almost immediately, after the initial submit and deployment to github the site did not update, this was because the css was not linked correctly - I had gone out of the directory because I used the file path '../assets/images/nameofpicture.jpeg' - when i removed the '..' it worked as the index file is located next to the assets file.
 
 Similarly I encountered an issue with the images in the Rooms section would not load, the file path looked correct as I compared it to my mistake above. I relalised this was because I had put '/' in front of assets. Removing this connected the links.
+
+I did not have issues linking the navigation or social media icons.
 
 ## Responsive Elements
 
@@ -150,6 +154,8 @@ The live link can be found here - https://dilner1.github.io/Studio-Six/
 - Font was sourced from Google Fonts https://fonts.google.com/
 
 - Icons were sourced from Font Awesome https://fontawesome.com/
+
+- I used tinypng to mninimize the image file sizes https://tinypng.com/
 
 ## media
 
