@@ -178,6 +178,10 @@ body {
     font-size: .75rem;
 }
 
+.hidden_quote {
+    line-height: 2.5rem;
+}
+
 /*Booking Form*/
 form {
     background-image: url('../images/studio_amp.jpeg');
@@ -291,7 +295,6 @@ footer {
     }
 
     .responsive_images_box {
-        display: flex;
     }
 
     .studio_pictures_resize {
@@ -305,10 +308,6 @@ footer {
         width: 49%;
         height: 100%;
         display: inline-block;
-    }
-
-    .rehearsal_pictures_resize img {
-        width: 100%;
     }
 
     .rehearsal_pictures_resize_large {
@@ -328,17 +327,43 @@ footer {
 
     .hidden_quote {
         display: block;
+        margin: 0;
+        line-height: 1.5rem;
+        padding-bottom: 1rem;
     }
 
     #quote {
         font-size: 1rem;
+        padding: 0;
     }
 
 }
 
-/* For medium screen sizes from 900px wide and down */
-@media screen and (min-width: 900px) {
+/* For medium screen sizes from 1000px wide and down */
+@media screen and (min-width: 1000px) {
+
     .hidden_quote {
-        margin-bottom: 1rem;
+        line-height: 1.75;
+    }
+
+    #quote {
+        font-size: 1.25rem;
+    }
+
+    #quote_source {
+        font-size: 1.25rem;
+    }
+}
+
+/* For medium screen sizes from 1500px wide and down */
+@media screen and (min-width: 1500px) {
+    #quote {
+        font-size: 1.5rem;
+        padding-bottom: 1.5rem;
+    }
+
+    #quote_source {
+        font-size: 1.5rem;
+        padding-bottom: 2rem;
     }
 }
