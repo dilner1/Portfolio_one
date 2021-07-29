@@ -127,7 +127,7 @@ After spending so much time on this section I also realised the radio input dots
 
 # Unfixed Bugs
 
-Whilst not a bug as such I have found that when I move to a section of the page it crops out the titles, this is because of the navigation bar that sticks to the top of the page. I would still keep the navigation bars design as it is very useful for navigating the page however to clean up the design I would look to change where the link take the user. 
+Whilst not a bug as such I have found that when I move to a section of the page it crops out the titles, this is because of the navigation bar that sticks to the top of the page. I would still keep the navigation bars design as it is very useful for navigating the page however to clean up the design I would look to change where the link takes the user. 
 
 # deployment
 
@@ -144,7 +144,13 @@ The live link can be found here - https://dilner1.github.io/Studio-Six/
 # credits
 
 
-# content
 
+## content
 
-# media
+- Font was sourced from Google Fonts https://fonts.google.com/
+
+- Icons were sourced from Font Awesome https://fontawesome.com/
+
+## media
+
+- All pictures were taken from the open source site Pexels https://www.pexels.com/
