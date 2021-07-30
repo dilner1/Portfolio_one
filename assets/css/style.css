@@ -336,7 +336,7 @@ footer {
         display: block;
         margin: 0;
         line-height: 1.5rem;
-        padding-bottom: 1rem;
+        padding-bottom: 5%;
     }
 
     #quote {
@@ -372,11 +372,9 @@ footer {
 
     #quote {
         font-size: 1.5rem;
-        padding-bottom: 1.5rem;
     }
 
     #quote_source {
         font-size: 1.5rem;
-        padding-bottom: 2rem;
     }
 }
