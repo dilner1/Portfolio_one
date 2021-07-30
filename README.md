@@ -184,7 +184,7 @@ The live link can be found here - https://dilner1.github.io/Studio-Six/
 
 - Icons were sourced from Font Awesome https://fontawesome.com/
 
-- I used tinypng to mninimize the image file sizes https://tinypng.com/
+- I used tinypng to minimize the image file sizes https://tinypng.com/
 
 ## media
 
