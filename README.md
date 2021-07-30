@@ -12,16 +12,19 @@ The site uses a one-page format, this makes it especially easy to navigate on mo
 
 - Opening section of the page starts with a large, bright and colorful picture which focuses the eye on the central logo 
 
-![main menu screen](assets/images/menu.png)
+- The image immediately lets users know this is a music orientated website
 
+- A border was used to give this section an almost postcard like effect, this border styling was used throughout the design
+
+![main menu screen](assets/images/menu.png)
 
 ## Navigation Bar
 
-- Navigation bar is located under the header and sticks to the top when scrolling down
+- The navigation bar is located under the header and sticks to the top when scrolling down
 
-- Has hover function that changes the navigation colour
+- A bar that sticks seemed like the most appropriate choice for a site that requires a lot of scrolling
 
-- As this is a one-page site an 'active' element was not included as it was not necessary
+- Has hover function that changes the navigation colour, this matches the logo background color
 
 ## Who We Are
 
@@ -29,7 +32,7 @@ The site uses a one-page format, this makes it especially easy to navigate on mo
 
 - As the opening section is very dramatic this was kept simple so the reader is not distracted from the text
 
-- Uses wide line-spacing and solid background to achieve this
+- Uses wide line-spacing and solid background to achieve this, as well as different font for headings and paragraphs
 
 ![About us section](assets/images/who_we_are_section.png)
 
@@ -39,11 +42,13 @@ The site uses a one-page format, this makes it especially easy to navigate on mo
 
 - Shows the specific rooms that can be booked
 
+- Some pictures have a responsive design for larger screen sizes, placing them next to each other. This prevents the images from pixelating and gives a more interesting layout than just one picture on top of another
+
 ![rehearsal rooms section](assets/images/rehearsal_section.png)
 
 ## Equipment 
 
-- Similar to the Who We Are section, focuses on ease of reading.
+- Similar to the Who We Are section, focuses on ease of reading with font, line spacing and padding
 
 - Contains a brief disclaimer for anyone wanting to use this service and encourages clients to get in contact through bookings section below
 
@@ -128,7 +133,13 @@ However after using stack overflow I discovered giving that giving the icons a w
 
 After spending so much time on this section I also realised the radio input dots in the inquiery section were also slightly out of line with their text. the reason was I set the margin-left to 50%, this again looked correct on mobile but clearly not on a larger screen. Changing this to instead margin: 0 atuo; fixed this issue.
 
+## Dark Mode
+
+
+
 # Unfixed Bugs
+
+## Navigation and links
 
 Whilst not a bug as such I have found that when I move to a section of the page it crops out the titles, this is because of the navigation bar that sticks to the top of the page. I would still keep the navigation bars design as it is very useful for navigating the page however to clean up the design I would look to change where the link takes the user. 
 
