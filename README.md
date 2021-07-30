@@ -89,14 +89,14 @@ The site uses a one-page format, this makes it especially easy to navigate on mo
 - Tested Lighthouse on desktop
 ![desktop_lighthouse]()
 
-Intially the lighthouse scores were generally quite good however the performance was lacking. When testing the lighthouse score I noticed that even after I reduced the image file sizes the performance score was still around 70 - 81. the main image was being flagged although it is only 307 KB - because it is a detailed image with a wide variety of colours and high contrast I tested by reducing the padding size on the Desktop version so less of the image showed. This immediately improved the performance.
+Initially the lighthouse scores were generally quite good however the performance was lacking. When testing the lighthouse score I noticed that even after I reduced the image file sizes the performance score was still around 70 - 81. The main image was being flagged although it is only 307 KB - because it is a detailed image with a wide variety of colors and high contrast I tested by reducing the padding size on the Desktop version so less of the image showed. This immediately improved the performance.
 
 The score for the mobile stayed the same. Although I prefer the look of a larger main image size it does hamper the performance score. Reducing the padding to 10% top and bottom gives the Desktop a score of 97. Reducing the padding by the same amount on mobile doesn't have as much of an effect on the score.
 
 
 ## File Paths
 
-I ran into a bug almost immediately, after the initial submit and deployment to github the site did not update, this was because the css was not linked correctly - I had gone out of the directory because I used the file path '../assets/images/nameofpicture.jpeg' - when i removed the '..' it worked as the index file is located next to the assets file.
+I ran into a bug almost immediately, after the initial submit and deployment to github the site did not update. This was because the css was not linked correctly - I had gone out of the directory because I used the file path '../assets/images/nameofpicture.jpeg' - when i removed the '..' it worked as the index file is located next to the assets file.
 
 Similarly I encountered an issue with the images in the Rooms section would not load, the file path looked correct as I compared it to my mistake above. I relalised this was because I had put '/' in front of assets. Removing this connected the links.
 
@@ -104,9 +104,9 @@ I did not have issues linking the navigation or social media icons.
 
 ## Responsive Elements
 
-The site was designed with a mobile first approach. 
+I opted for a mobile first approach, although I didn't need to change much a responsive design I find it a challenge scalling up to desktop in the areas I wanted to adjust.
 
-Had an issue with the form sections text and email boxes as they would not line up in the centre of the page. this was not an issue with the inquiery section that contains the radio buttons. The problem was more pronounced when used on tablet and desktop, so originally I used margin with percentages to fix this however it still persisted, tried padding and changing different display element types.
+I had an issue with the form sections text and email boxes as they would not line up in the centre of the page. I did not have the same issue with the inquiery section that contains the radio buttons. The problem was more pronounced when used on tablet and desktop, originally I used a margin with percentages to fix this however it still persisted, I also tried padding and changing different display element types.
 
 ![mobile form centering](assets/images/form_mobile_centering_ok.png)
 
@@ -145,8 +145,6 @@ The live link can be found here - https://dilner1.github.io/Studio-Six/
 
 
 # credits
-
-
 
 ## content
 
