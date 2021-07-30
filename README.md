@@ -1,8 +1,8 @@
 # Studio Six
 
-Studio Six is a recording studio that allows potential clients to hire either a recording studio, one of two rehearsal rooms or book equipement through the rental service for live music. As it is a busnieness area centered around artists I wanted to give the website a bold look to really capture the eye of the potential client.
+Studio Six is a recording studio that allows potential clients to hire either a recording studio, one of two rehearsal rooms or book equipment through the rental service for live music. As it is a business area centered around artists I wanted to give the website a bold look to really capture the eye of the potential client.
 
-The site uses a one page format, this makes it especially easy to naviagte on mobile and doesn't hinder use on a desktop. This also gives the site a sleek and modern feel.
+The site uses a one-page format, this makes it especially easy to navigate on mobile and doesn't hinder use on a desktop. This also gives the site a sleek and modern feel.
 
 ![responsive design picture](assets/images/responsive_design.png)
 
@@ -10,27 +10,24 @@ The site uses a one page format, this makes it especially easy to naviagte on mo
 
 ## Opening Screen
 
-- opening section of the page starts with a large, bright and colorful picture and focuses eye on central logo
-
-- this is an attempt to make the site memorable and unique.
+- Opening section of the page starts with a large, bright and colorful picture which focuses the eye on the central logo This is an attempt to make the site memorable and unique.
 
 ![main menu screen](assets/images/menu.png)
 
 
 ## Navigation Bar
 
-- Navigation is located under the header and sticks to the top when scrolling down
+- Navigation bar is located under the header and sticks to the top when scrolling down
 
-- Has hover function that changes the nav colour 
+- Has hover function that changes the navigation colour
 
-- As is a one page site have not included an 'active' element as not necessary.
-
+- As this is a one-page site an 'active' element was not included as it was not necessary.
 
 ## Who We Are
 
-- gives short information on company, explains what the studio can do 
+- Gives a short section of information on company, explains what the studio can do 
 
-- As opening section is very dramatic this section was kept simple and easy to read
+- As opening section is very dramatic this section was kept simple so the reader is not distracted from the text
 
 - Uses wide line-spacing and solid background to achieve this
 
@@ -38,7 +35,7 @@ The site uses a one page format, this makes it especially easy to naviagte on mo
 
 ## Rooms
 
-- Uses image gallary to seperate sections
+- Uses image gallery to separate sections
 
 - Shows the specific rooms that can be booked
 
