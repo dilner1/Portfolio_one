@@ -2,7 +2,7 @@
 
 Studio Six is a recording studio that allows potential clients to hire either a recording studio, one of two rehearsal rooms or book equipment through the rental service for live music. As it is a business area centered around artists I wanted to give the website a bold look to really capture the eye of the potential client.
 
-The site uses a one-page format, this makes it especially easy to navigate on mobile and doesn't hinder use on a desktop. This also gives the site a sleek and modern feel.
+The site uses a one-page format, this makes it especially easy to navigate on mobile and doesn't hinder ease of use on a desktop because of its navigation bar. This also gives the site a sleek and modern feel.
 
 ![responsive design picture](assets/images/responsive_design.png)
 
@@ -78,24 +78,21 @@ The site uses a one-page format, this makes it especially easy to navigate on mo
 
 # Testing
 
-## validation
+## Responsive Design
 
-- No errors were returned when passing through the official Validator
+I opted for a mobile first approach, after researching this seemed to be the best practice and should mean slightly less coding overall. For the most part this seemed to be the case, however adjusting the images for a responsive design did become very time consuming.
 
-![html validation](assets/images/html_validation.png)
+- This is the mobile version with images stacked ontop of each other
 
-- No errors were returned when passing through the official validator
+![responsive design on mobile](assets/images/mobile_responsive_design.png)
 
-![css_validation](assets/images/css_validation.png)
+The flow of the mobile version works well with the images to break up sections, however moving to desktop the images take up much of the screen and became overpowering - some images also started to pixelate. In response to this some images were moved into columns so they could share space. 
 
-- Tested Lighthouse on mobile
-![desktop_lighthouse](assets/images/mobile_lighthouse.png)
+This was particularly difficult with the second group of images (pictured below) as there was a lot of white space left. There are several ways to deal with this but I opted to fill this in with a quote as this breaks the page up further, I also did not want to stretch or resize any images.
 
-- Tested Lighthouse on desktop
-![desktop_lighthouse](assets/images/desktop_lighthouse.png)
+![responsive design on desktop](assets/images/desktop_responsive_design.png)
 
-The lighthouse scores are quite good however there is a difference between the mobile and desktop version in regards to performance. the biggest issue seems to be image size, even after reducing file sizes there is still clearly a difference. 
-
+This approach was quite troublesome because more white space appeared in response to the screen size increasing, or when decreasing it pushed the right hand side image down. There are several media querys that adjust the quote size, I also found that using a padding of 5% rather than a rem value responded much better to size changes.
 
 ## File Paths
 
@@ -103,21 +100,13 @@ The first bug I experienced was after the initial submit and deployment to githu
 
 Similarly I encountered an issue with the images in the Rooms section, the file path looked correct as I compared it to my mistake above. I relalised the error was because I had put '/' in front of assets. Removing this connected the links. Because of these simple issues I now have a much better understanding of file paths in Github.
 
-There was no issue linking the navigation or social media icons. 
-
-## Responsive Design
-
-I opted for a mobile first approach, after researching this seemed to be the best practice and should mean less coding overall. For the most part this was the case, however there were some issues when scalling up to desktop and tablet sizes.
-
-There are two sub sections where images move from being stacked on top of each other to being arranged in columns. For the first two images in the Studio sub section this wasn't an issue, however in the Rehearsal sub section this ended up leaving a lot of white space.
-
-As I did not wan to stretch the images to the left I added a quote from an artist to fill some of the space, originally I 
+There was no issue linking the navigation or social media icons. The media icons link to seperate pages, there is an issue with the location the nav bar takes you which is discussed in the unfixed bugs section (although this is quite minor).
 
 # Nav Bar
 
 The sticky navigation bar works very well, however I noticed that when scrolling there were times where the background could be seen between the top of the screen and the top of the bar (although it was only about a pixel in height so not very obvious). When I originally looked at stack overflow to create the nav bar the information given was to set the top value to 0px. As there was no other obvious reason as to why there would be break between the bar and the top of the screen I changed the value to -1 which fixed the issue.
 
-# Form Alignment
+## Form Alignment
 
 There was an issue with the form sections text and email boxes as they would not line up in the centre of the page. I did not have the same issue with the inquiery section that contains the radio buttons. The problem was more pronounced when used on tablet and desktop, originally I used a margin with percentages to fix this however it still persisted, I also tried padding and changing different display element types.
 
@@ -135,8 +124,6 @@ I noticed  the radio input dots in the inquiery section were also slightly out o
 
 ## Footer
 
-This section is not in regards to a page breaking error however for design purposes it made the site look unpolished.
-
 I found that although on my mobile design the social media fonts seemed inline it was clear on the full sized screen they were not. When I looked at the elements using inspect the icons were pushed to one side so I atempted several methods to change this from padding and margin values, display types to vertical alignment.
 
 However after using stack overflow I discovered giving that giving the icons a width value and removing the padding actually corrected this.
@@ -148,6 +135,26 @@ I tested the site on my own mobile which happened to be in dark mode, this of co
 ![dark mode colours](assets/images/mobile_dark_mode.jpg)
 
 The standard site has a white background, I also created a border for the main picture with the same colour value. In other sections of the site the border was created by using margins rather than a border. I assumed the pictures border was causing overlay, by changing this to a margin this removed the issue. I have no plans to make any other changes to the dark mode, having uniform colours is good enough at this stage.
+
+## validation
+
+- No errors were returned when passing through the official Validator
+
+![html validation](assets/images/html_validation.png)
+
+- No errors were returned when passing through the official validator
+
+![css_validation](assets/images/css_validation.png)
+
+- Tested Lighthouse on mobile
+![desktop_lighthouse](assets/images/mobile_lighthouse.png)
+
+- Tested Lighthouse on desktop
+![desktop_lighthouse](assets/images/desktop_lighthouse.png)
+
+The lighthouse scores are quite good however there is a difference between the mobile and desktop version in regards to performance. the biggest issue seems to be images not having a width or height value, however adding these does not seem like best practice. 
+
+Several people have tested my site, it works well on various devices with many positive comments about layout and design. None of the testers have any knowledge of HTML or CSS so could not comment on the code.
 
 # Unfixed Bugs
 
@@ -163,8 +170,8 @@ The site was deployed to GitHub pages. The steps to deploy are as follows:
 
 
 In the GitHub repository, navigate to the Settings tab
-From the source section drop-down menu, select the Master Branch
-Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+In the pages section, go to select branch drop-down menu, select Main
+Once the Main branch has been selected, a link to the site is provided
 
 The live link can be found here - https://dilner1.github.io/Studio-Six/
 
