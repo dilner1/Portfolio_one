@@ -94,28 +94,27 @@ The site uses a one-page format, this makes it especially easy to navigate on mo
 - Tested Lighthouse on desktop
 ![desktop_lighthouse](assets/images/desktop_lighthouse.png)
 
-Initially the lighthouse scores were quite good however the performance was lacking. Even after I reduced the image file sizes the performance score was still fluctuating around 70 - 81. The main image was being flagged although it is only 307 KB - I believed this was because it is a detailed image with a wide variety of colors and high contrast. 
-
-I tested by reducing the padding size to 10% on the desktop version so less of the image showed. This appeared to improve the performance.
-
- Reducing the padding by the same amount on mobile didn't have as much of an effect on the score unfortunately. 
-
-However as I have gone back over and tested the performance numerous time, I have since adjusted the main pictures padding size for desktop to 16% which now doesn't seem to be causing an issue.
+The lighthouse scores are quite good however there is a difference between the mobile and desktop version in regards to performance. the biggest issue seems to be image size, even after reducing file sizes there is still clearly a difference. 
 
 
 ## File Paths
 
-A bug I experienced almost immediately was after the initial submit and deployment to github. The site did not update any CSS because the css was not linked correctly - I had gone out of the directory because I used the file path '../assets/images/nameofpicture.jpeg' - when i removed the '..' it worked as the index file is located next to the assets file.
+The first bug I experienced was after the initial submit and deployment to github. The site did not update any CSS because it was not linked correctly. I used the file path '../assets/images/nameofpicture.jpeg' which took me out of the directory, when i removed the '..' it worked as the index file is located next to the assets file.
 
-Similarly I encountered an issue with the images in the Rooms section would not load, the file path looked correct as I compared it to my mistake above. I relalised this was because I had put '/' in front of assets. Removing this connected the links.
+Similarly I encountered an issue with the images in the Rooms section, the file path looked correct as I compared it to my mistake above. I relalised the error was because I had put '/' in front of assets. Removing this connected the links. Because of these simple issues I now have a much better understanding of file paths in Github.
 
-I did not have issues linking the navigation or social media icons.
+There was no issue linking the navigation or social media icons. 
 
-## Responsive Elements
+## Responsive Images
 
-I opted for a mobile first approach, although I didn't need to change much a responsive design I find it a challenge scalling up to desktop in the areas I wanted to adjust.
+I opted for a mobile first approach, after researching this seemed to be the best practice and should mean less coding overall. For the most part this was the case, however there were some issues when scalling up to desktop and tablet sizes.
 
-I had an issue with the form sections text and email boxes as they would not line up in the centre of the page. I did not have the same issue with the inquiery section that contains the radio buttons. The problem was more pronounced when used on tablet and desktop, originally I used a margin with percentages to fix this however it still persisted, I also tried padding and changing different display element types.
+
+
+
+# Form Alignment
+
+There was an issue with the form sections text and email boxes as they would not line up in the centre of the page. I did not have the same issue with the inquiery section that contains the radio buttons. The problem was more pronounced when used on tablet and desktop, originally I used a margin with percentages to fix this however it still persisted, I also tried padding and changing different display element types.
 
 ![mobile form centering](assets/images/form_mobile_centering_ok.png)
 
@@ -125,9 +124,12 @@ I had an issue with the form sections text and email boxes as they would not lin
 
 - Desktop version is clearly out of line
 
-The issue stopped when I removed the display element, the natural flow of the page correted the mistake as it was already responsive. This has taught me it is very easy to over code something.
+The issue stopped when I removed the display element, the natural flow of the page correted the mistake as it was already responsive. This has taught me it is very easy to add unecessary code.
 
-# Footer and Form alignment
+I noticed  the radio input dots in the inquiery section were also slightly out of line with the text. the reason was I set the margin-left to 50%, this again looked correct on mobile but clearly not on a larger screen. Changing this to instead margin: 0 atuo; fixed the issue.
+
+
+## Footer
 
 This section is not in regards to a page breaking error however for design purposes it made the site look unpolished.
 
@@ -135,15 +137,13 @@ I found that although on my mobile design the social media fonts seemed inline i
 
 However after using stack overflow I discovered giving that giving the icons a width value and removing the padding actually corrected this.
 
-After spending so much time on this section I also realised the radio input dots in the inquiery section were also slightly out of line with their text. the reason was I set the margin-left to 50%, this again looked correct on mobile but clearly not on a larger screen. Changing this to instead margin: 0 atuo; fixed this issue.
-
 ## Dark Mode
 
-I tested the site on my own mobile which happened to be in dark mode, this of course adjusted the colours used. Although it would take a lot more investigation to learn how to make adjustments I was mostly happy with how it looked. The only issue was that the main picture border was different to the border color in used rest of the site despite using the same colour value.
+I tested the site on my own mobile which happened to be in dark mode, this of course adjusted the colours used. Although it would take a lot more investigation to learn how to customize this I was mostly happy with how it looked. The only issue was that the main picture border was different to the border color in used rest of the site despite using the same colour value.
 
 ![dark mode colours](assets/images/mobile_dark_mode.jpg)
 
-There is a background colour of near white, I also created a border for the main picture with the same value. In other sections of the site the border was created by using margins rather than a border. I assumed this main pictures border was causing some overlay, by changing this to a margin this removed the issue. I have no plans to make any other changes to the dark mode, having uniform colours is good enough at this stage.
+The standard site has a white background, I also created a border for the main picture with the same colour value. In other sections of the site the border was created by using margins rather than a border. I assumed the pictures border was causing overlay, by changing this to a margin this removed the issue. I have no plans to make any other changes to the dark mode, having uniform colours is good enough at this stage.
 
 # Unfixed Bugs
 
