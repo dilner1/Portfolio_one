@@ -68,7 +68,7 @@ The site uses a one-page format, this makes it especially easy to navigate on mo
 
 - Links to social media
 
-- Bold white against dark grey / almost black
+- Bold white against very dark grey
 
 - Like the navigation bar it also has a hover colour
 
@@ -101,7 +101,7 @@ Although I prefer the look of a larger main image size it does hamper the perfor
 
 ## File Paths
 
-I ran into a bug almost immediately, after the initial submit and deployment to github the site did not update. This was because the css was not linked correctly - I had gone out of the directory because I used the file path '../assets/images/nameofpicture.jpeg' - when i removed the '..' it worked as the index file is located next to the assets file.
+A bug I experienced almost immediately was after the initial submit and deployment to github. The site did not update any CSS because the css was not linked correctly - I had gone out of the directory because I used the file path '../assets/images/nameofpicture.jpeg' - when i removed the '..' it worked as the index file is located next to the assets file.
 
 Similarly I encountered an issue with the images in the Rooms section would not load, the file path looked correct as I compared it to my mistake above. I relalised this was because I had put '/' in front of assets. Removing this connected the links.
 
@@ -135,13 +135,19 @@ After spending so much time on this section I also realised the radio input dots
 
 ## Dark Mode
 
+I tested the site on my own mobile which happened to be in dark mode, this of course adjusted the colours used. Although it would take a lot more investigation to learn how to make adjustments I was mostly happy with how it looked. The only issue was that the main picture border was different to the border color in used rest of the site despite using the same colour value.
 
+![dark mode colours](assets/images/mobile_dark_mode.jpg)
+
+There is a background colour of near white, I also created a border for the main picture with the same value. In other sections of the site the border was created by using margins rather than a border. I assumed this main pictures border was causing some overlay, by changing this to a margin this removed the issue. I have no plans to make any other changes to the dark mode, having uniform colours is good enough at this stage.
 
 # Unfixed Bugs
 
 ## Navigation and links
 
-Whilst not a bug as such I have found that when I move to a section of the page it crops out the titles, this is because of the navigation bar that sticks to the top of the page. I would still keep the navigation bars design as it is very useful for navigating the page however to clean up the design I would look to change where the link takes the user. 
+Whilst not a bug as such I have found that when I move to a section of the page it crops out the titles, this is because of the navigation bar that sticks to the top of the page. I would still keep the navigation bars design as it is very useful for the user. To compensate I added more padding above the headings. This worked for the desktop perfectly fine however the padding I would need to add to the mobile version would be so significant that it would look out of place.
+
+in the future I would look to correct this for the mobile version, however I don't currently posses the skills to be fix this the way I would want to.
 
 # deployment
 

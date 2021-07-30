@@ -335,8 +335,8 @@ footer {
 @media screen and (min-width: 1000px) {
 
     .main_header {
-        padding-top: 10%;
-        padding-bottom: 10%;
+        padding-top: 16%;
+        padding-bottom: 16%;
     }
 
     .hidden_quote {
