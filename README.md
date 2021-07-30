@@ -105,12 +105,17 @@ Similarly I encountered an issue with the images in the Rooms section, the file 
 
 There was no issue linking the navigation or social media icons. 
 
-## Responsive Images
+## Responsive Design
 
 I opted for a mobile first approach, after researching this seemed to be the best practice and should mean less coding overall. For the most part this was the case, however there were some issues when scalling up to desktop and tablet sizes.
 
+There are two sub sections where images move from being stacked on top of each other to being arranged in columns. For the first two images in the Studio sub section this wasn't an issue, however in the Rehearsal sub section this ended up leaving a lot of white space.
 
+As I did not wan to stretch the images to the left I added a quote from an artist to fill some of the space, originally I 
 
+# Nav Bar
+
+The sticky navigation bar works very well, however I noticed that when scrolling there were times where the background could be seen between the top of the screen and the top of the bar (although it was only about a pixel in height so not very obvious). When I originally looked at stack overflow to create the nav bar the information given was to set the top value to 0px. As there was no other obvious reason as to why there would be break between the bar and the top of the screen I changed the value to -1 which fixed the issue.
 
 # Form Alignment
 
@@ -127,7 +132,6 @@ There was an issue with the form sections text and email boxes as they would not
 The issue stopped when I removed the display element, the natural flow of the page correted the mistake as it was already responsive. This has taught me it is very easy to add unecessary code.
 
 I noticed  the radio input dots in the inquiery section were also slightly out of line with the text. the reason was I set the margin-left to 50%, this again looked correct on mobile but clearly not on a larger screen. Changing this to instead margin: 0 atuo; fixed the issue.
-
 
 ## Footer
 
@@ -149,7 +153,7 @@ The standard site has a white background, I also created a border for the main p
 
 ## Navigation and links
 
-Whilst not a bug as such I have found that when I move to a section of the page it crops out the titles, this is because of the navigation bar that sticks to the top of the page. I would still keep the navigation bars design as it is very useful for the user. To compensate I added more padding above the headings. This worked for the desktop perfectly fine however the padding I would need to add to the mobile version would be so significant that it would look out of place.
+Whilst not a site breaking bug I have found that when I move to a section of the page it crops out the titles, this is because of the navigation bar that sticks to the top of the page. I would still keep the navigation bars design as it is very useful for the user. To compensate I added more padding above the headings. This worked for the desktop perfectly fine however the padding I would need to add to the mobile version would be so significant that it would look out of place.
 
 in the future I would look to correct this for the mobile version, however I don't currently posses the skills to be fix this the way I would want to.
 
