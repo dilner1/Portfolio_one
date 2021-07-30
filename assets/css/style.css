@@ -72,7 +72,7 @@ body {
 
 .nav_stick {
     position: sticky;
-    top: 0px;
+    top: -1px;
     background-color: #1c1c1c;
     margin-bottom: .5rem;
 }
@@ -234,18 +234,16 @@ input[type=email] {
 }
 
 .inquiery label:hover {
-    color: #2DBA49;
+    color: #02ff02;
 }
 
-#additional_information {
+#additional_info {
     margin-top: 2rem;
     height: 200px;
     width: 70%;
     max-width: 600px;
-}
-
-#additional_information::placeholder {
-    float: left;
+    resize: none;
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
     padding: 10px;
 }
 
@@ -262,7 +260,7 @@ input[type=submit] {
 
 input[type=submit]:hover {
     background-color: #2DBA49;
-    border-color: #1BFD94;
+    border-color: #02ff02;
 }
 
 /* Social Media */
@@ -290,11 +288,6 @@ footer {
 
 /* For medium screen sizes from 750px wide and down */
 @media screen and (min-width: 750px) {
-
-    .main_header {
-        padding-top: 25%;
-        padding-bottom: 25%;
-    }
 
     .studio_pictures_resize {
         column-count: 2;
@@ -340,6 +333,11 @@ footer {
 
 /* For medium screen sizes from 1000px wide and down */
 @media screen and (min-width: 1000px) {
+
+    .main_header {
+        padding-top: 10%;
+        padding-bottom: 10%;
+    }
 
     .hidden_quote {
         line-height: 1.75;
