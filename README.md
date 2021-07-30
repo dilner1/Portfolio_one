@@ -10,7 +10,7 @@ The site uses a one-page format, this makes it especially easy to navigate on mo
 
 ## Opening Screen
 
-- Opening section of the page starts with a large, bright and colorful picture which focuses the eye on the central logo This is an attempt to make the site memorable and unique.
+- Opening section of the page starts with a large, bright and colorful picture which focuses the eye on the central logo 
 
 ![main menu screen](assets/images/menu.png)
 
@@ -21,13 +21,13 @@ The site uses a one-page format, this makes it especially easy to navigate on mo
 
 - Has hover function that changes the navigation colour
 
-- As this is a one-page site an 'active' element was not included as it was not necessary.
+- As this is a one-page site an 'active' element was not included as it was not necessary
 
 ## Who We Are
 
 - Gives a short section of information on company, explains what the studio can do 
 
-- As opening section is very dramatic this section was kept simple so the reader is not distracted from the text
+- As the opening section is very dramatic this was kept simple so the reader is not distracted from the text
 
 - Uses wide line-spacing and solid background to achieve this
 
@@ -43,7 +43,7 @@ The site uses a one-page format, this makes it especially easy to navigate on mo
 
 ## Equipment 
 
-- Similar to Who We Are section, focus on ease of reading.
+- Similar to the Who We Are section, focuses on ease of reading.
 
 - Contains a brief disclaimer for anyone wanting to use this service and encourages clients to get in contact through bookings section below
 
@@ -51,11 +51,11 @@ The site uses a one-page format, this makes it especially easy to navigate on mo
 
  ## Bookings form
 
-- Form for users that covers all of the above areas
+- A booking and inquiry form for users
 
-- requires name / email, what service they would like and a text box to give aditional context.
+- Requires name / email, what service they would like and a text box at the bottom to give additional context
 
-- Inquiery section changes color on hover and also and also requires one of these to be selected
+- Inquiry sub section changes color on hover and also requires one of these to be selected
 
 ![bookings section](assets/images/booking_section.png)
 
@@ -65,7 +65,7 @@ The site uses a one-page format, this makes it especially easy to navigate on mo
 
 - Bold white against dark grey / almost black
 
-- like the navigation bar it also has a hover colour 
+- Like the navigation bar it also has a hover colour
 
 - Directs user to the respective site on a new page
 
@@ -89,9 +89,9 @@ The site uses a one-page format, this makes it especially easy to navigate on mo
 - Tested Lighthouse on desktop
 ![desktop_lighthouse]()
 
-When testing the lighthouse score I noticed that even after I reduced the image file sizes the Performance score was still around 70 - 81. the main image was being flagged although it is only 307 KB - because it is a details image with a wide variety of colours and high contrast I tested reducing the padding size on the Desktop version so less of the image showed. This immediately improved the Performance.
+Intially the lighthouse scores were generally quite good however the performance was lacking. When testing the lighthouse score I noticed that even after I reduced the image file sizes the performance score was still around 70 - 81. the main image was being flagged although it is only 307 KB - because it is a detailed image with a wide variety of colours and high contrast I tested by reducing the padding size on the Desktop version so less of the image showed. This immediately improved the performance.
 
- The performance for the mobile stayed the same. Although I prefer the look of a larger main image size it does hamper the performance score significantly. Reducing the padding to 10% top and bottom gives the Desktop a score of 97. Reducing the padding by the same amount only yields a performance of 81 on mobile.
+The score for the mobile stayed the same. Although I prefer the look of a larger main image size it does hamper the performance score. Reducing the padding to 10% top and bottom gives the Desktop a score of 97. Reducing the padding by the same amount on mobile doesn't have as much of an effect on the score.
 
 
 ## File Paths
