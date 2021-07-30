@@ -102,7 +102,7 @@ Similarly I encountered an issue with the images in the Rooms section, the file 
 
 There was no issue linking the navigation or social media icons. The media icons link to seperate pages, there is an issue with the location the nav bar takes you which is discussed in the unfixed bugs section (although this is quite minor).
 
-# Nav Bar
+## Navigation Bar 
 
 The sticky navigation bar works very well, however I noticed that when scrolling there were times where the background could be seen between the top of the screen and the top of the bar (although it was only about a pixel in height so not very obvious). When I originally looked at stack overflow to create the nav bar the information given was to set the top value to 0px. As there was no other obvious reason as to why there would be break between the bar and the top of the screen I changed the value to -1 which fixed the issue.
 
@@ -118,7 +118,7 @@ There was an issue with the form sections text and email boxes as they would not
 
 - Desktop version is clearly out of line
 
-The issue stopped when I removed the display element, the natural flow of the page correted the mistake as it was already responsive. This has taught me it is very easy to add unecessary code.
+The issue stopped when I removed the display element, the natural flow of the page corrected the mistake as it was already responsive. This has taught me it is very easy to add unecessary code.
 
 I noticed  the radio input dots in the inquiery section were also slightly out of line with the text. the reason was I set the margin-left to 50%, this again looked correct on mobile but clearly not on a larger screen. Changing this to instead margin: 0 atuo; fixed the issue.
 
@@ -130,7 +130,7 @@ However after using stack overflow I discovered giving that giving the icons a w
 
 ## Dark Mode
 
-I tested the site on my own mobile which happened to be in dark mode, this of course adjusted the colours used. Although it would take a lot more investigation to learn how to customize this I was mostly happy with how it looked. The only issue was that the main picture border was different to the border color in used rest of the site despite using the same colour value.
+I tested the site on my own mobile which is set to dark mode, this of course adjusted the colours used. Although it would take a lot more investigation to learn how to customize this I was mostly happy with how it looked. The only issue was that the main picture border was different to the border color in used rest of the site despite using the same colour value.
 
 ![dark mode colours](assets/images/mobile_dark_mode.jpg)
 
