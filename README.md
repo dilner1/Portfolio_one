@@ -94,11 +94,13 @@ The site uses a one-page format, this makes it especially easy to navigate on mo
 - Tested Lighthouse on desktop
 ![desktop_lighthouse](assets/images/desktop_lighthouse.png)
 
-Initially the lighthouse scores were quite good however the performance was lacking. Even after I reduced the image file sizes the performance score was still fluctuating around 70 - 81. The main image was being flagged although it is only 307 KB - I believed this was because it is a detailed image with a wide variety of colors and high contrast. I tested by reducing the padding size on the Desktop version so less of the image showed. This actually improved the performance.
+Initially the lighthouse scores were quite good however the performance was lacking. Even after I reduced the image file sizes the performance score was still fluctuating around 70 - 81. The main image was being flagged although it is only 307 KB - I believed this was because it is a detailed image with a wide variety of colors and high contrast. 
 
-Although I prefered the look of a larger main image size it did seem to hamper the performance score. Reducing the padding to 10% top and bottom gave the desktop a score of 91. Reducing the padding by the same amount on mobile didn't have as much of an effect on the score unfortunately. 
+I tested by reducing the padding size to 10% on the desktop version so less of the image showed. This appeared to improve the performance.
 
-However as I have gone back over and tested the performance numerous time, I have since adjusted the main pictures padding size for desktop to 16% which now doesn't seem to be causing an issue. 
+ Reducing the padding by the same amount on mobile didn't have as much of an effect on the score unfortunately. 
+
+However as I have gone back over and tested the performance numerous time, I have since adjusted the main pictures padding size for desktop to 16% which now doesn't seem to be causing an issue.
 
 
 ## File Paths
