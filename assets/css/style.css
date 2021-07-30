@@ -217,23 +217,23 @@ input[type=email] {
     max-width: 600px;
 }
 
-.inquiery {
+.inquiry {
     background-color: rgba(219, 183, 215, 0.671);
     margin: 0 10%;
     padding-bottom: 20px;
     max-width: 600px;
 }
 
-.inquiery h3 {
+.inquiry h3 {
     padding: 20px;
 }
 
-.inquiery input {
+.inquiry input {
     display: block;
     margin: 0 auto;
 }
 
-.inquiery label:hover {
+.inquiry label:hover {
     color: #02ff02;
 }
 
@@ -311,7 +311,7 @@ footer {
         width: 100%;
     }
 
-    .inquiery {
+    .inquiry {
         display: block;
         margin: 0 auto;
         max-width: 600px;
