@@ -334,10 +334,7 @@ footer {
 /* For medium screen sizes from 1000px wide and down */
 @media screen and (min-width: 1000px) {
 
-    .main_header {
-        padding-top: 16%;
-        padding-bottom: 16%;
-    }
+
 
     .hidden_quote {
         line-height: 1.75;
@@ -354,11 +351,6 @@ footer {
 
 /* For medium screen sizes from 1500px wide and down */
 @media screen and (min-width: 1500px) {
-
-    .main_header {
-        padding-top: 16%;
-        padding-bottom: 16%;
-    }
 
     #quote {
         font-size: 1.5rem;
