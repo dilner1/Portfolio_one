@@ -96,15 +96,15 @@ I experienced file path issues after the initial submit and deployment to Github
 
 Similarly, I encountered an issue with the images in the Rooms section. The error was because I had put '/' in front of assets, removing this connected the links. I  have a much better understanding of file paths in Github because of these errors.
 
-There was no issue linking the navigation or social media icons. The media icons link to seperate pages, there is an issue with the location the nav bar takes you which is discussed in the unfixed bugs section (although this is quite minor).
+There was no issue linking the navigation or social media icons. The media icons link to separate pages, there is an issue with the location the nav bar takes you which is discussed in the unfixed bugs section (although this is quite minor).
 
 ## Navigation Bar 
 
-The sticky navigation bar works very well, it adjusts to different screen sizes well and is very smooth. I noticed that when scrolling the background could be seen, this was between the top of the screen and the top of the bar and was perhaps only a pixel or so in height. When I originally looked at stack overflow to create the nav bar, the information given was to set the top value to 0px, set the position to sticky and place it in its own section outside of the header. As the line break followed the nav bar I assumed it must be a padding or margin error, there was no other obvious reason as to why there would be break so I adjusted the top value to -1px which corrected the issue.
+The sticky navigation bar works very well, it adjusts to different screen sizes well and is very smooth. I noticed that when scrolling on mobile the background could be seen, this was between the top of the screen and the top of the bar and was perhaps only a pixel or so in height. When I originally looked at stack overflow to create the nav bar, the information given was to set the top value to 0px, set the position to sticky and place it in its own section outside of the header. As the line break followed the nav bar I assumed it must be a padding or margin error, there was no other obvious reason for this break so I adjusted the top value to -1px which corrected the issue.
 
 ## Form Alignment
 
-The form text and email inputs would not centre correctly. I did not have the same issue with the inquery section that contains the radio buttons. The problem was more pronounced when used on tablet and desktop, originally I used a margin with percentages to fix this however it still persisted, I also tried padding and changing different display element types.
+The form text and email inputs would not center correctly. I did not have the same issue with the inquiry section, which contains the radio buttons. The problem was more pronounced when used on tablet and desktop, originally I tried a margin with percentages to fix this however it still persisted, I also tried padding and changing different display element types.
 
 ![mobile form centering](assets/images/form_mobile_centering_ok.png)
 
@@ -114,13 +114,13 @@ The form text and email inputs would not centre correctly. I did not have the sa
 
 - Desktop version is clearly out of line
 
-The issue stopped when I removed the display element, the natural flow of the page corrected the mistake as it was already responsive. This has taught me it is very easy to add unecessary code.
+The issue stopped when I removed the display element, the natural flow of the page corrected the mistake as it was already responsive. This has taught me it is very easy to add unnecessary code.
 
-I noticed  the radio input dots in the inquiery section were also slightly out of line with the text. the reason was I set the margin-left to 50%, this again looked correct on mobile but clearly not on a larger screen. Changing this to instead margin: 0 atuo; fixed the issue.
+I noticed  the radio input dots in the inquiry section were also slightly out of line with the text. The reason was I set the margin-left to 50%, this again looked correct on mobile but clearly not on a larger screen. Changing this to instead margin: 0 auto; fixed the issue.
 
 ## Footer
 
-I found that although on my mobile design the social media fonts seemed inline it was clear on the full sized screen they were not. When I looked at the elements using inspect the icons were pushed to one side so I atempted several methods to change this from padding and margin values, display types to vertical alignment.
+I found that although on my mobile design the social media fonts seemed inline it was clear on the full sized screen they were not. When I looked at the elements using inspect the icons were pushed to one side, so I attempted several methods to change this from padding and margin values, display types to vertical alignment.
 
 However after using stack overflow I discovered giving that giving the icons a width value and removing the padding actually corrected this.
 
@@ -148,7 +148,7 @@ The standard site has a white background, I also created a border for the main p
 - Tested Lighthouse on desktop
 ![desktop_lighthouse](assets/images/desktop_lighthouse.png)
 
-The lighthouse scores are quite good however there is a difference between the mobile and desktop version in regards to performance. the biggest issue seems to be images not having a width or height value, however adding these does not seem like best practice. 
+The lighthouse scores are quite good however there is a difference between the mobile and desktop version in regards to performance.
 
 Several people have tested my site, it works well on various devices with many positive comments about layout and design. None of the testers have any knowledge of HTML or CSS so could not comment on the code.
 
@@ -158,7 +158,7 @@ Several people have tested my site, it works well on various devices with many p
 
 Whilst not a site breaking bug I have found that when I move to a section of the page it crops out the titles, this is because of the navigation bar that sticks to the top of the page. I would still keep the navigation bars design as it is very useful for the user. To compensate I added more padding above the headings. This worked for the desktop perfectly fine however the padding I would need to add to the mobile version would be so significant that it would look out of place.
 
-in the future I would look to correct this for the mobile version, however I don't currently posses the skills to be fix this the way I would want to.
+in the future I would look to correct this for the mobile version, however I don't currently posses the skills to fix this the way I would want to.
 
 # deployment
 
