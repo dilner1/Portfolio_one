@@ -100,11 +100,11 @@ There was no issue linking the navigation or social media icons. The media icons
 
 ## Navigation Bar 
 
-The sticky navigation bar works very well, it adjusts to different screen sizes well and is very smooth. I noticed that when scrolling the background could be seen, this was between the top of the screen and the top of the bar and was prehaps only a pixel or so in height. When I originally looked at stack overflow to create the nav bar, the information given was to set the top value to 0px, set the position to sticky and place it in it's own section outside of the header. As the line break followed the nav bar I assumed it must be a padding or margin error, there was no other obvious reason as to why there would be break so I adjusted the top value to -1px which corrected the issue.
+The sticky navigation bar works very well, it adjusts to different screen sizes well and is very smooth. I noticed that when scrolling the background could be seen, this was between the top of the screen and the top of the bar and was perhaps only a pixel or so in height. When I originally looked at stack overflow to create the nav bar, the information given was to set the top value to 0px, set the position to sticky and place it in its own section outside of the header. As the line break followed the nav bar I assumed it must be a padding or margin error, there was no other obvious reason as to why there would be break so I adjusted the top value to -1px which corrected the issue.
 
 ## Form Alignment
 
-The form text and email inputs would not centre correctly. I did not have the same issue with the inquixery section that contains the radio buttons. The problem was more pronounced when used on tablet and desktop, originally I used a margin with percentages to fix this however it still persisted, I also tried padding and changing different display element types.
+The form text and email inputs would not centre correctly. I did not have the same issue with the inquery section that contains the radio buttons. The problem was more pronounced when used on tablet and desktop, originally I used a margin with percentages to fix this however it still persisted, I also tried padding and changing different display element types.
 
 ![mobile form centering](assets/images/form_mobile_centering_ok.png)
 
