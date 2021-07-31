@@ -72,7 +72,7 @@ body {
 
 .nav_stick {
     position: sticky;
-    top: -1px;
+    top: 0;
     background-color: #1c1c1c;
     margin-bottom: .5rem;
 }

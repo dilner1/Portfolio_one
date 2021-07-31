@@ -1,6 +1,6 @@
 # Studio Six
 
-Studio Six is a recording studio that allows potential clients to hire either a recording studio, one of two rehearsal rooms or book equipment through the rental service for live music. As it is a business area centered around artists I wanted to give the website a bold look to really capture the eye of the potential client.
+Studio Six is a recording studio that allows potential clients to hire either a recording studio, one of two rehearsal rooms or book equipment through the rental service for live music. As this is a business area centered around artists I wanted to give the website a bold look to really capture the eye of the potential client.
 
 The site uses a one-page format, this makes it especially easy to navigate on mobile and doesn't hinder ease of use on a desktop because of its navigation bar. This also gives the site a sleek and modern feel.
 
@@ -22,9 +22,7 @@ The site uses a one-page format, this makes it especially easy to navigate on mo
 
 - The navigation bar is located under the header and sticks to the top when scrolling down
 
-- A bar that sticks seemed like the most appropriate choice for a site that requires a lot of scrolling
-
-- Has hover function that changes the navigation colour, this matches the logo background color
+- Has a hover function that changes the navigation colour, this matches the logo's background color
 
 ## Who We Are
 
@@ -38,7 +36,7 @@ The site uses a one-page format, this makes it especially easy to navigate on mo
 
 ## Rooms
 
-- Uses image gallery to separate sections
+- Uses images to separate sub sections
 
 - Shows the specific rooms that can be booked
 
@@ -68,9 +66,7 @@ The site uses a one-page format, this makes it especially easy to navigate on mo
 
 - Links to social media
 
-- Bold white against very dark grey
-
-- Like the navigation bar it also has a hover colour
+- Hover feature with colour that matches navigation bar
 
 - Directs user to the respective site on a new page
 
@@ -80,35 +76,35 @@ The site uses a one-page format, this makes it especially easy to navigate on mo
 
 ## Responsive Design
 
-I opted for a mobile first approach, after researching this seemed to be the best practice and should mean slightly less coding overall. For the most part this seemed to be the case, however adjusting the images for a responsive design did become very time consuming.
+I opted for a mobile first approach, after researching this seemed to be the best practice and should mean slightly less coding overall. For the most part this seemed to be the case, however adjusting the images for a responsive design did become very time-consuming.
 
-- This is the mobile version with images stacked ontop of each other
+- This is the mobile version with images stacked on top of each other
 
 ![responsive design on mobile](assets/images/mobile_responsive_design.png)
 
-The flow of the mobile version works well with the images to break up sections, however moving to desktop the images take up much of the screen and became overpowering - some images also started to pixelate. In response to this some images were moved into columns so they could share space. 
+The flow of the mobile version works well with the images to break up sections, however moving to desktop the images take up too much of the screen and became overpowering - some images also started to pixelate. In response to this some images were moved into columns.
 
-This was particularly difficult with the second group of images (pictured below) as there was a lot of white space left. There are several ways to deal with this but I opted to fill this in with a quote as this breaks the page up further, I also did not want to stretch or resize any images.
+This was particularly difficult with the second group of images (pictured below) as there was a lot of white space left. I opted to fill this in with a quote as this breaks the page up further, I also did not want to stretch or resize any images.
 
 ![responsive design on desktop](assets/images/desktop_responsive_design.png)
 
-This approach was quite troublesome because more white space appeared in response to the screen size increasing, or when decreasing it pushed the right hand side image down. There are several media querys that adjust the quote size, I also found that using a padding of 5% rather than a rem value responded much better to size changes.
+This approach was troublesome as more white space would appear in response to the screen size increasing, when decreasing it pushed the right-hand side image down. There are several media queries that adjust the quote font size, I also found that using a padding of % rather than a rem value responded much better to size changes.
 
 ## File Paths
 
-The first bug I experienced was after the initial submit and deployment to github. The site did not update any CSS because it was not linked correctly. I used the file path '../assets/images/nameofpicture.jpeg' which took me out of the directory, when i removed the '..' it worked as the index file is located next to the assets file.
+I experienced file path issues after the initial submit and deployment to Github. The site did not update any CSS because it was not linked correctly. I used the file path '../assets/images/nameofpicture.jpeg', this took me out of the directory. When I removed the '..' it worked as the index file is located next to the assets file. 
 
-Similarly I encountered an issue with the images in the Rooms section, the file path looked correct as I compared it to my mistake above. I relalised the error was because I had put '/' in front of assets. Removing this connected the links. Because of these simple issues I now have a much better understanding of file paths in Github.
+Similarly, I encountered an issue with the images in the Rooms section. The error was because I had put '/' in front of assets, removing this connected the links. I  have a much better understanding of file paths in Github because of these errors.
 
 There was no issue linking the navigation or social media icons. The media icons link to seperate pages, there is an issue with the location the nav bar takes you which is discussed in the unfixed bugs section (although this is quite minor).
 
 ## Navigation Bar 
 
-The sticky navigation bar works very well, however I noticed that when scrolling there were times where the background could be seen between the top of the screen and the top of the bar (although it was only about a pixel in height so not very obvious). When I originally looked at stack overflow to create the nav bar the information given was to set the top value to 0px. As there was no other obvious reason as to why there would be break between the bar and the top of the screen I changed the value to -1 which fixed the issue.
+The sticky navigation bar works very well, it adjusts to different screen sizes well and is very smooth. I noticed that when scrolling the background could be seen, this was between the top of the screen and the top of the bar and was prehaps only a pixel or so in height. When I originally looked at stack overflow to create the nav bar, the information given was to set the top value to 0px, set the position to sticky and place it in it's own section outside of the header. As the line break followed the nav bar I assumed it must be a padding or margin error, there was no other obvious reason as to why there would be break so I adjusted the top value to -1px which corrected the issue.
 
 ## Form Alignment
 
-There was an issue with the form sections text and email boxes as they would not line up in the centre of the page. I did not have the same issue with the inquiery section that contains the radio buttons. The problem was more pronounced when used on tablet and desktop, originally I used a margin with percentages to fix this however it still persisted, I also tried padding and changing different display element types.
+The form text and email inputs would not centre correctly. I did not have the same issue with the inquixery section that contains the radio buttons. The problem was more pronounced when used on tablet and desktop, originally I used a margin with percentages to fix this however it still persisted, I also tried padding and changing different display element types.
 
 ![mobile form centering](assets/images/form_mobile_centering_ok.png)
 
