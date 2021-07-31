@@ -2,7 +2,7 @@
 
 Studio Six is a recording studio that allows potential clients to hire either a recording studio, one of two rehearsal rooms or book equipment through the rental service for live music. As this is a business area centered around artists I wanted to give the website a bold look to really capture the eye of the potential client.
 
-The site uses a one-page format, this makes it especially easy to navigate on mobile and doesn't hinder ease of use on a desktop because of its navigation bar. This also gives the site a sleek and modern feel.
+The site uses a one-page format, this makes it especially easy to navigate on mobile and doesn't hinder ease of use on a desktop because of navigation bar follows the user. This also gives the site a sleek and modern feel.
 
 ![responsive design picture](assets/images/responsive_design.png)
 
@@ -122,7 +122,7 @@ I noticed  the radio input dots in the inquiry section were also slightly out of
 
 I found that although on my mobile design the social media fonts seemed inline it was clear on the full sized screen they were not. When I looked at the elements using inspect the icons were pushed to one side, so I attempted several methods to change this from padding and margin values, display types to vertical alignment.
 
-However after using stack overflow I discovered giving that giving the icons a width value and removing the padding actually corrected this.
+After using stack overflow I discovered giving that giving the icons a width value and removing the padding actually corrected this.
 
 ## Dark Mode
 
@@ -150,7 +150,7 @@ The standard site has a white background, I also created a border for the main p
 
 The lighthouse scores are quite good however there is a difference between the mobile and desktop version in regards to performance.
 
-Several people have tested my site, it works well on various devices with many positive comments about layout and design. None of the testers have any knowledge of HTML or CSS so could not comment on the code.
+Several people have tested this site, it works well on various devices with many positive comments about layout and design. None of the testers have any knowledge of HTML or CSS so could not comment on the code.
 
 # Unfixed Bugs
 
@@ -158,7 +158,7 @@ Several people have tested my site, it works well on various devices with many p
 
 Whilst not a site breaking bug I have found that when I move to a section of the page it crops out the titles, this is because of the navigation bar that sticks to the top of the page. I would still keep the navigation bars design as it is very useful for the user. To compensate I added more padding above the headings. This worked for the desktop perfectly fine however the padding I would need to add to the mobile version would be so significant that it would look out of place.
 
-in the future I would look to correct this for the mobile version, however I don't currently posses the skills to fix this the way I would want to.
+In the future I would look to correct this for the mobile version, however I don't currently posses the skills to fix this the way I would want to.
 
 # deployment
 
@@ -170,7 +170,6 @@ In the pages section, go to select branch drop-down menu, select Main
 Once the Main branch has been selected, a link to the site is provided
 
 The live link can be found here - https://dilner1.github.io/Studio-Six/
-
 
 # credits
 
